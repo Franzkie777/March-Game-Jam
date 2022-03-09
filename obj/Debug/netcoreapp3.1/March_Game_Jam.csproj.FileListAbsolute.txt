@@ -1,0 +1,5 @@
+C:\Users\jesse\Documents\GameJam22\obj\Debug\netcoreapp3.1\March_Game_Jam.csproj.AssemblyReference.cache
+C:\Users\jesse\Documents\GameJam22\obj\Debug\netcoreapp3.1\March_Game_Jam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesse\Documents\GameJam22\obj\Debug\netcoreapp3.1\March_Game_Jam.AssemblyInfoInputs.cache
+C:\Users\jesse\Documents\GameJam22\obj\Debug\netcoreapp3.1\March_Game_Jam.AssemblyInfo.cs
+C:\Users\jesse\Documents\GameJam22\obj\Debug\netcoreapp3.1\March_Game_Jam.csproj.CoreCompileInputs.cache

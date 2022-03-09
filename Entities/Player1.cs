@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SwordsYeah.Entities
+namespace March_Game_Jam.Entities
 {
     class Player1 : Entity
     {
@@ -24,7 +24,7 @@ namespace SwordsYeah.Entities
         //to other entities
         public new void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.pallete, Game1.blue, hitBox, Color.White);
+            sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
         }
 
 
