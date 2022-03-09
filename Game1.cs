@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using March_Game_Jam.Buttons;
 
 namespace March_Game_Jam
 {
@@ -8,12 +9,17 @@ namespace March_Game_Jam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
+        private Button inventory = new Button("Inventory", null);
+        private Button engine = new Button("Engine", null);
+        private Button Scanner = new Button("Scanner", null);
+        
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+
+            
         }
 
         protected override void Initialize()
@@ -42,7 +48,7 @@ namespace March_Game_Jam
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
 

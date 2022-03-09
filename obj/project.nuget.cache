@@ -1,15 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "TukJcNRgaWTTg6lvTuHVnsaHw+96s4AoR/tEkpExjq/y5d100SxFPTd9dcKz4xFmcDGWu5lrz1aA2Be+GleuAA==",
+  "dgSpecHash": "i3C21BaY4i3LIacV1jeM4bB++6UGndv2Eixel6P3x33EgXt9zmYOLKOTTCPmo33t5v5Zc/GYFXQ9ODyWDQOTgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\molendadewey13\\Documents\\March Game Jam\\March Game Jam.csproj",
+  "projectFilePath": "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
+    "C:\\Users\\jesse\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\jesse\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
   ],
   "logs": []
 }
