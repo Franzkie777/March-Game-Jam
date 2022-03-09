@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SwordsYeah.Entities
+namespace March_Game_Jam.Entities
 {
     class Player1 : Entity
     {
