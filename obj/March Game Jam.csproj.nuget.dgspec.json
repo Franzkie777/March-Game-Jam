@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj": {}
+    "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\March Game Jam.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj": {
+    "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\March Game Jam.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj",
+        "projectUniqueName": "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\March Game Jam.csproj",
         "projectName": "March Game Jam",
-        "projectPath": "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj",
-        "packagesPath": "C:\\Users\\jesse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesse\\Documents\\GameJam22\\obj\\",
+        "projectPath": "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\March Game Jam.csproj",
+        "packagesPath": "C:\\Users\\molendadewey13\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jesse\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\molendadewey13\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,12 +57,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.22, 3.1.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
