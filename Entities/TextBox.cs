@@ -15,7 +15,9 @@ namespace March_Game_Jam.Entities
         public string animationInstructions_filepath;
         public animationInstructions animationInstruction;
         public animationFrame currentFrame; 
-        public TextBox(int startX, int startY, string textbox_animation_instructions_filepath)
+
+        public string state;
+        public TextBox(int startX, int startY, string textbox_animation_instructions_filepath) : base()
         {
             x = startX;
             y = startY;
@@ -23,33 +25,102 @@ namespace March_Game_Jam.Entities
             animationInstructions_filepath = textbox_animation_instructions_filepath;
             animationInstruction = new animationInstructions(animationInstructions_filepath);
             currentFrame = animationInstruction.animationFrame_list[animationFrame_idx];
-            // imageBox.X = currentFrame.framex;
-            // imageBox.Y = currentFrame.framey;
-            // imageBox.Width = currentFrame.framew;
-            // imageBox.Height = currentFrame.frameh;
+            imageBox.X = currentFrame.framex;
+            imageBox.Y = currentFrame.framey;
+            imageBox.Width = currentFrame.framew;
+            imageBox.Height = currentFrame.frameh;
+            width = currentFrame.framew;
+            height = currentFrame.frameh;
+            state = "OPENING";
+            hitBox.Width = width;
+            hitBox.Height = height;
 
-            imageBox.X = 0;
-            imageBox.Y = 496;
-            imageBox.Width = 900;
-            imageBox.Height = 900;
-            updateHitBox();
-        }
-        public new void Draw(SpriteBatch sb)
-        {
-            sb.Draw(Game1.pallete, hitBox, imageBox, Color.Red);
         }
 
-        public new void Animation(int animationRate)
+        public void updateCurrentAnimationFrame(int i)
         {
-            foreach(animationFrame frame in animationInstruction.animationFrame_list)
+            animationFrame_idx +=i;
+            currentFrame = animationInstruction.animationFrame_list[animationFrame_idx];
+            imageBox.X = currentFrame.framex;
+            imageBox.Y = currentFrame.framey;
+            imageBox.Width = currentFrame.framew;
+            imageBox.Height = currentFrame.frameh;
+            width = currentFrame.framew;
+            height = currentFrame.frameh;
+            hitBox.Width = width;
+            hitBox.Height = height;
+        }
+        public override void Draw(SpriteBatch sb)
+        {
+            sb.Draw(Game1.textbox_img, hitBox, imageBox, Color.White);
+        }
+
+        public override void Update()
+        {
+            if (state =="OPENING")
             {
-                
+                Opening();
+            }
+            else if (state =="CLOSING")
+            {
+                Closing();
+            }
+            else if (state =="OPEN")
+            {
+                Open();
+            }
+            else{
+                Closed();
+            }
+            //if clauses that call their own state function
+        }
+
+        public void Opening(int i=1){
+            if (animationInstruction.animationFrame_list.Count()-1 != animationFrame_idx)
+            {
+                updateCurrentAnimationFrame(i);
+                state = "OPENING";
+            }
+            else
+            {
+                state = "OPEN";
+            }
+
+        }
+        public void Closing(int i=-1){
+            if (animationFrame_idx>0)
+            {
+                updateCurrentAnimationFrame(i);
+                state = "CLOSING";
+            }
+            else
+            {
+                state = "CLOSED";
             }
         }
-
-        public new void Close_Animation()
-        {
-            
+        public void Open(){
+            animationFrame_idx = animationInstruction.animationFrame_list.Count()-1;
+            currentFrame = animationInstruction.animationFrame_list[animationFrame_idx];
+            imageBox.X = currentFrame.framex;
+            imageBox.Y = currentFrame.framey;
+            imageBox.Width = currentFrame.framew;
+            imageBox.Height = currentFrame.frameh;
+            width = currentFrame.framew;
+            height = currentFrame.frameh;
+            hitBox.Width = width;
+            hitBox.Height = height;
+        }
+        public void Closed(){
+            animationFrame_idx = 0;
+            currentFrame = animationInstruction.animationFrame_list[animationFrame_idx];
+            imageBox.X = currentFrame.framex;
+            imageBox.Y = currentFrame.framey;
+            imageBox.Width = currentFrame.framew;
+            imageBox.Height = currentFrame.frameh;
+            width = currentFrame.framew;
+            height = currentFrame.frameh;
+            hitBox.Width = width;
+            hitBox.Height = height;
         }
     }
 }

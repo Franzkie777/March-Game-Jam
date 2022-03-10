@@ -1,25 +1,23 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "BOo3Hle+Y/p3sUAwoEAsqOglqT6TDXJ6gnrJaOSgKcFCrd635Ixn0gd+3S0hEQwrty7OH15jpiKWdq4HZIBxXg==",
-=======
-  "dgSpecHash": "i3C21BaY4i3LIacV1jeM4bB++6UGndv2Eixel6P3x33EgXt9zmYOLKOTTCPmo33t5v5Zc/GYFXQ9ODyWDQOTgg==",
->>>>>>> 911419500221ac43bc229c667cb3ed8d80ef81c0
   "success": true,
-  "projectFilePath": "C:\\Users\\jesse\\Documents\\GameJam22\\March Game Jam.csproj",
+  "projectFilePath": "C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\March Game Jam.csproj",
   "expectedPackageFiles": [
-<<<<<<< HEAD
     "C:\\Users\\molendadewey13\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\molendadewey13\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\molendadewey13\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512",
     "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
-=======
-    "C:\\Users\\jesse\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\jesse\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
->>>>>>> 911419500221ac43bc229c667cb3ed8d80ef81c0
+    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\molendadewey13\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.22\\microsoft.netcore.app.host.win-x64.3.1.22.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\molendadewey13\\Documents\\March Game Jam Proper\\March-Game-Jam\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

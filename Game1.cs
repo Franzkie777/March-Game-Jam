@@ -15,6 +15,8 @@ namespace March_Game_Jam
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
 
         public static Texture2D pallete;
+        public static Texture2D textbox_img;
+
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
             green= new Rectangle(2, 0, 1, 1),
@@ -28,9 +30,10 @@ namespace March_Game_Jam
         private Button inventory = new Button("Inventory", null);
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
-        private Entities.Player1 testPlayer = new Entities.Player1(400, 60);
-        
-        private Entities.TextBox testTextBox = new Entities.TextBox(400,80,"Content/TextBox.json");
+        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+
+        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/TextBox.json");
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -51,7 +54,8 @@ namespace March_Game_Jam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            pallete = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
+            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
+            textbox_img = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
             // TODO: use this.Content to load your game content here
         }
 
@@ -71,13 +75,8 @@ namespace March_Game_Jam
             GraphicsDevice.Clear(Color.Black);
             _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp);
 
-<<<<<<< HEAD
-            testPlayer.Draw(_spriteBatch);
-            testTextBox.Draw(_spriteBatch);
-=======
             foreach(Entities.Entity e in Entities)
                 e.Draw(_spriteBatch);
->>>>>>> 911419500221ac43bc229c667cb3ed8d80ef81c0
 
             _spriteBatch.End();
             base.Draw(gameTime);
