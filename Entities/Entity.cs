@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace March_Game_Jam.Entities
 {
-    class Entity
+    public class Entity
     {
         public int x, y, width, height;
         public Rectangle hitBox = new Rectangle(), imageBox = new Rectangle();
@@ -16,7 +16,12 @@ namespace March_Game_Jam.Entities
 
         public Entity()
         {
-            
+            Game1.AddEntity(this);
+        }
+
+        public void Destroy()
+        {
+            Game1.RemoveEntity(this);
         }
 
         public void updateHitBox()
@@ -27,7 +32,12 @@ namespace March_Game_Jam.Entities
             hitBox.Y = y - height / 2;
         }
 
-        public void Draw(SpriteBatch sb)
+        public virtual void Update()
+        {
+            
+        }
+
+        public virtual void Draw(SpriteBatch sb)
         {
 
         }
