@@ -17,8 +17,6 @@ namespace March_Game_Jam.Entities
         public Entity()
         {
             Game1.AddEntity(this);
-            Console.WriteLine("there");
-            Console.WriteLine(Game1.Entities.Count);
         }
 
         public void Destroy()
