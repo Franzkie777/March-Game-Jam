@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using March_Game_Jam.Helpers;
+
 
 namespace March_Game_Jam.Entities
 {
@@ -13,6 +15,8 @@ namespace March_Game_Jam.Entities
         public int x, y, width, height;
         public Rectangle hitBox = new Rectangle(), imageBox = new Rectangle();
         public Texture2D image;
+
+        public int animationFrame_idx;
 
         public Entity()
         {
@@ -41,6 +45,7 @@ namespace March_Game_Jam.Entities
         {
 
         }
+
 
 
     }
