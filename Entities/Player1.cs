@@ -10,7 +10,7 @@ namespace March_Game_Jam.Entities
 {
     class Player1 : Entity
     {
-        public Player1(int startX, int startY)
+        public Player1(int startX, int startY) : base()
         {
             x = startX;
             y = startY;
@@ -22,7 +22,7 @@ namespace March_Game_Jam.Entities
         //The new keyword lets this method override the default Entity draw method
         //This lets us specify how this particular entity will be drawn, as opposed
         //to other entities
-        public new void Draw(SpriteBatch sb)
+        public override void Draw(SpriteBatch sb)
         {
             sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
         }

@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using March_Game_Jam.Buttons;
 using System.IO;
+using System.Collections.Generic;
 
 namespace March_Game_Jam
 {
@@ -10,6 +11,9 @@ namespace March_Game_Jam
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+
+        public static List<Entities.Entity> Entities = new List<Entities.Entity>();
+
         public static Texture2D pallete;
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
@@ -56,21 +60,35 @@ namespace March_Game_Jam
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
-            // TODO: Add your update logic here
+            foreach(Entities.Entity e in Entities)
+                e.Update();
 
             base.Update(gameTime);
         }
 
-        protected override void Draw(GameTime gameTime)
+        protected override async void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
             _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp);
 
+<<<<<<< HEAD
             testPlayer.Draw(_spriteBatch);
             testTextBox.Draw(_spriteBatch);
+=======
+            foreach(Entities.Entity e in Entities)
+                e.Draw(_spriteBatch);
+>>>>>>> 911419500221ac43bc229c667cb3ed8d80ef81c0
 
             _spriteBatch.End();
             base.Draw(gameTime);
+        }
+
+        public static void AddEntity(Entities.Entity e) {
+            Entities.Add(e);
+        }
+
+        public static void RemoveEntity(Entities.Entity e) {
+            Entities.Remove(e);
         }
     }
 }
