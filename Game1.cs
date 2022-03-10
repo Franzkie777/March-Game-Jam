@@ -24,8 +24,9 @@ namespace March_Game_Jam
         private Button inventory = new Button("Inventory", null);
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
-        private Entities.Player1 testPlayer = new Entities.Player1(40, 60);
+        private Entities.Player1 testPlayer = new Entities.Player1(400, 60);
         
+        private Entities.TextBox testTextBox = new Entities.TextBox(400,80,"Content/TextBox.json");
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -46,7 +47,7 @@ namespace March_Game_Jam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
+            pallete = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
             // TODO: use this.Content to load your game content here
         }
 
@@ -66,6 +67,7 @@ namespace March_Game_Jam
             _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp);
 
             testPlayer.Draw(_spriteBatch);
+            testTextBox.Draw(_spriteBatch);
 
             _spriteBatch.End();
             base.Draw(gameTime);
