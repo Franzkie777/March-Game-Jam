@@ -17,7 +17,6 @@ namespace March_Game_Jam.Entities
             width = 20;
             height = 20;
             updateHitBox();
-            Console.WriteLine("here");
         }
 
         //The new keyword lets this method override the default Entity draw method
