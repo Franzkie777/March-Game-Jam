@@ -31,7 +31,7 @@ namespace March_Game_Jam.Entities
             imageBox.Height = currentFrame.frameh;
             width = currentFrame.framew;
             height = currentFrame.frameh;
-            state = "OPENING";
+            state = "CLOSED";
             hitBox.Width = width;
             hitBox.Height = height;
 
@@ -52,7 +52,7 @@ namespace March_Game_Jam.Entities
         }
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.textbox_img, hitBox, imageBox, Color.White);
+            sb.Draw(Game1.textbox_img, hitBox, imageBox, Color.White *0.5f);
         }
 
         public override void Update()
@@ -67,10 +67,10 @@ namespace March_Game_Jam.Entities
             }
             else if (state =="OPEN")
             {
-                Open();
+                Closing();
             }
             else{
-                Closed();
+                Opening();
             }
             //if clauses that call their own state function
         }

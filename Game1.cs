@@ -13,10 +13,11 @@ namespace March_Game_Jam
         private SpriteBatch _spriteBatch;
 
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
-
+        //Content definitions
         public static Texture2D pallete;
         public static Texture2D textbox_img;
-
+        public static Texture2D background_img;
+        public static Texture2D scrolling_stars_img;
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
             green= new Rectangle(2, 0, 1, 1),
@@ -31,9 +32,11 @@ namespace March_Game_Jam
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
         private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+       
+        private Entities.Background background = new Entities.Background();
 
         private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/TextBox.json");
-
+        private Entities.Scrolling_Stars scrolling_stars = new Entities.Scrolling_Stars("Content/Scrolling Stars.json");
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -53,9 +56,12 @@ namespace March_Game_Jam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            
+            background_img = Texture2D.FromFile(GraphicsDevice, "Content/Starry Background.png");
 
             pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
             textbox_img = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
+            scrolling_stars_img = Texture2D.FromFile(GraphicsDevice,"Content/Scrolling Stars.png");
             // TODO: use this.Content to load your game content here
         }
 
