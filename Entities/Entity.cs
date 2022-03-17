@@ -16,7 +16,7 @@ namespace March_Game_Jam.Entities
         public Rectangle hitBox = new Rectangle(), imageBox = new Rectangle();
         public Texture2D image;
 
-        public int animationFrame_idx;
+        public int animationFrame_idx, layer;
 
         public Entity()
         {
