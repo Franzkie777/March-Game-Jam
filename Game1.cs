@@ -88,8 +88,19 @@ namespace March_Game_Jam
             base.Draw(gameTime);
         }
 
-        public static void AddEntity(Entities.Entity e) {
-            Entities.Add(e);
+        public static async void AddEntity(Entities.Entity e) {
+            bool added = false;
+            for(int i = 0; i < Entities.Count; i++) {
+                if(Entities[i].layer >= e.layer) {
+                    Entities.Insert(i, e);
+                    added = true;
+                    i = Entities.Count;
+                }
+            }
+
+            if(!added) {
+                Entities.Add(e);
+            }
         }
 
         public static void RemoveEntity(Entities.Entity e) {
