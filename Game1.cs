@@ -9,11 +9,19 @@ namespace March_Game_Jam
 {
     public class Game1 : Game
     {
+        private static bool mouseWasUp = false;
+        public static bool mouseClicked = false;
+        public static bool mouseDown = false;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
+<<<<<<< HEAD
         //Content definitions
+=======
+        public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
+
+>>>>>>> 4430901659cabcf59932f762fb07ca7c1bea7da2
         public static Texture2D pallete;
         public static Texture2D textbox_img;
         public static Texture2D background_img;
@@ -67,12 +75,21 @@ namespace March_Game_Jam
 
         protected override void Update(GameTime gameTime)
         {
+            MouseHoveredEntities.Clear();
+            mouseClicked = MouseClickCheck();
+            mouseDown = MouseDownCheck();
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            foreach(Entities.Entity e in Entities) {
+                if(MouseOver(e.hitBox)) {
+                    MouseHoveredEntities.Add(e);
+                }
+            }
+
             foreach(Entities.Entity e in Entities)
                 e.Update();
-
+                
             base.Update(gameTime);
         }
 
@@ -106,5 +123,30 @@ namespace March_Game_Jam
         public static void RemoveEntity(Entities.Entity e) {
             Entities.Remove(e);
         }
+
+        public static bool MouseOver(Rectangle rect) {
+            bool mouseOver = false;
+            MouseState mState = Mouse.GetState();
+            if(mState.X >= rect.X && mState.X <= rect.X + rect.Width) {
+                if(mState.Y >= rect.Y && mState.Y <= rect.Y + rect.Height) {
+                    mouseOver = true;
+                }
+            }
+            return mouseOver;
+        }
+
+        //This function returns true as long as the mouse button is held down
+        public static bool MouseDownCheck() {
+            return Mouse.GetState().LeftButton.Equals(ButtonState.Pressed);
+        }
+
+        //This function returns true only if the mouse button was down and was previously seen as up.
+        public static bool MouseClickCheck() {
+            bool mouseNowDown = Mouse.GetState().LeftButton.Equals(ButtonState.Pressed);
+            bool clicked = (mouseWasUp && mouseNowDown);
+            mouseWasUp = !mouseNowDown;
+            return clicked;
+        }
+
     }
 }
