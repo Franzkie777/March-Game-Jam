@@ -16,12 +16,8 @@ namespace March_Game_Jam
         private SpriteBatch _spriteBatch;
 
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
-<<<<<<< HEAD
-        //Content definitions
-=======
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
->>>>>>> 4430901659cabcf59932f762fb07ca7c1bea7da2
         public static Texture2D pallete;
         public static Texture2D textbox_img;
         public static Texture2D background_img;
