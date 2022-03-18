@@ -17,6 +17,7 @@ namespace March_Game_Jam.Entities
             width = 200;
             height = 200;
             updateHitBox();
+            layer=1;
         }
 
         //The new keyword lets this method override the default Entity draw method
@@ -26,7 +27,5 @@ namespace March_Game_Jam.Entities
         {
             sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
         }
-
-
     }
 }

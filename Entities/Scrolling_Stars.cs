@@ -33,9 +33,10 @@ namespace March_Game_Jam.Entities
             hitBox.Width = width;
             hitBox.Height = height;
             current_speed = 1;
+            hitBox.Width = 432;
+            hitBox.Height = 500;
             last_frame_idx = animationInstruction.animationFrame_list.Count();
-
-        
+            layer=3;
         }
 
         public void updateCurrentAnimationFrame(int i)
@@ -51,13 +52,11 @@ namespace March_Game_Jam.Entities
             imageBox.Height = currentFrame.frameh;
             width = currentFrame.framew;
             height = currentFrame.frameh;
-            hitBox.Width = width;
-            hitBox.Height = height;
             
         }
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.scrolling_stars_img,hitBox,imageBox,Color.White*0.5f);
+            sb.Draw(Game1.scrolling_stars_img,hitBox,imageBox,Color.White);
         }
 
         public override void Update()

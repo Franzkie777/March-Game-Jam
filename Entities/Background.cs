@@ -23,11 +23,12 @@ namespace March_Game_Jam.Entities
             height = 500;
             hitBox.Width = 432;
             hitBox.Height = 500;
+            layer=0;
         }
 
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.background_img,hitBox,imageBox,Color.White);
+            //sb.Draw(Game1.background_img,hitBox,imageBox,Color.White);
         }
     }
 }

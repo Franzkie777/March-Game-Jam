@@ -34,7 +34,6 @@ namespace March_Game_Jam.Entities
             state = "CLOSED";
             hitBox.Width = width;
             hitBox.Height = height;
-
         }
 
         public void updateCurrentAnimationFrame(int i)
@@ -52,7 +51,7 @@ namespace March_Game_Jam.Entities
         }
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.textbox_img, hitBox, imageBox, Color.White *0.5f);
+            sb.Draw(Game1.textbox_img, hitBox, imageBox, Color.White);
         }
 
         public override void Update()

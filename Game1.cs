@@ -79,7 +79,7 @@ namespace March_Game_Jam
         protected override async void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
-            _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend, SamplerState.PointClamp);
+            _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Additive, SamplerState.PointClamp);
 
             foreach(Entities.Entity e in Entities)
                 e.Draw(_spriteBatch);
