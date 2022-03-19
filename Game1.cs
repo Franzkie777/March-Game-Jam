@@ -4,48 +4,66 @@ using Microsoft.Xna.Framework.Input;
 using March_Game_Jam.Buttons;
 using System.IO;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace March_Game_Jam
 {
     public class Game1 : Game
-    {
+    {   
+        //Mouse Stuff
         private static bool mouseWasUp = false;
         public static bool mouseClicked = false;
         public static bool mouseDown = false;
+
+        //Graphics
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        public static int screen_width;
+        public static int screen_height;
+
+        public void UpdateScreenSize()
+        {
+            screen_width = GraphicsDevice.Viewport.Width;
+            screen_height = GraphicsDevice.Viewport.Height;
+        }
+
+        //Entities
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
+        // public static Rectangle red = new Rectangle(0, 0, 1, 1),
+        //     blue = new Rectangle(1, 0, 1, 1),
+        //     green= new Rectangle(2, 0, 1, 1),
+        //     orange = new Rectangle(3, 0, 1, 1),
+        //     pink = new Rectangle(4, 0, 1, 1),
+        //     yellow = new Rectangle(5, 0, 1, 1),
+        //     cyan = new Rectangle(6, 0, 1, 1),
+        //     magenta = new Rectangle(7, 0, 1, 1),
+        //     black = new Rectangle(8, 0, 1, 1),
+        //     white = new Rectangle(9, 0, 1, 1);
+        private Button inventory = new Button("Inventory", null);
+        private Button engine = new Button("Engine", null);
+        private Button Scanner = new Button("Scanner", null);
+        //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+       
+        private Entities.Background background = new Entities.Background();
+        private Entities.Scrolling_Stars scrolling_stars = new Entities.Scrolling_Stars("Content/Scrolling Stars.json");
+        public static Dictionary<dynamic,dynamic> item_list_json;
+        public static Dictionary<dynamic,dynamic> problem_list_json;
+        public static Dictionary<dynamic,dynamic> ship_effects_list_json;
+
+        //Textures
         public static Texture2D pallete;
         public static Texture2D textbox_img;
         public static Texture2D background_img;
         public static Texture2D scrolling_stars_img;
-        public static Rectangle red = new Rectangle(0, 0, 1, 1),
-            blue = new Rectangle(1, 0, 1, 1),
-            green= new Rectangle(2, 0, 1, 1),
-            orange = new Rectangle(3, 0, 1, 1),
-            pink = new Rectangle(4, 0, 1, 1),
-            yellow = new Rectangle(5, 0, 1, 1),
-            cyan = new Rectangle(6, 0, 1, 1),
-            magenta = new Rectangle(7, 0, 1, 1),
-            black = new Rectangle(8, 0, 1, 1),
-            white = new Rectangle(9, 0, 1, 1);
-        private Button inventory = new Button("Inventory", null);
-        private Button engine = new Button("Engine", null);
-        private Button Scanner = new Button("Scanner", null);
-        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
-       
-        private Entities.Background background = new Entities.Background();
-
-        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/TextBox.json");
-        private Entities.Scrolling_Stars scrolling_stars = new Entities.Scrolling_Stars("Content/Scrolling Stars.json");
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            Window.AllowUserResizing = true;
 
             
         }
@@ -60,17 +78,22 @@ namespace March_Game_Jam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            
+            //graphics
             background_img = Texture2D.FromFile(GraphicsDevice, "Content/Starry Background.png");
-
             pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
             textbox_img = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
             scrolling_stars_img = Texture2D.FromFile(GraphicsDevice,"Content/Scrolling Stars.png");
+            //jsons
+            item_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/item_list.json"));
+            problem_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/problem_list.json"));
+            ship_effects_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/ship_effects_list.json"));
+
             // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
         {
+            UpdateScreenSize();
             MouseHoveredEntities.Clear();
             mouseClicked = MouseClickCheck();
             mouseDown = MouseDownCheck();

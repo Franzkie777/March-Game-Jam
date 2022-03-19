@@ -36,7 +36,7 @@ namespace March_Game_Jam.Entities
             hitBox.Width = 432;
             hitBox.Height = 500;
             last_frame_idx = animationInstruction.animationFrame_list.Count();
-            layer=3;
+            layer=1;
         }
 
         public void updateCurrentAnimationFrame(int i)
