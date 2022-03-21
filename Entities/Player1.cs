@@ -20,19 +20,7 @@ namespace March_Game_Jam.Entities
             width = 200;
             height = 200;
             updateHitBox();
-<<<<<<< HEAD
-
-            if(pCount == 1){
-                color = Game1.red;
-            }
-
-            if(pCount == 2) {
-                color = Game1.green;
-            }
-            pCount++;
-=======
             layer=1;
->>>>>>> bfc324036e188c54cbc5679efc89130404a56e19
         }
 
         //The new keyword lets this method override the default Entity draw method
@@ -40,11 +28,7 @@ namespace March_Game_Jam.Entities
         //to other entities
         public override void Draw(SpriteBatch sb)
         {
-<<<<<<< HEAD
-            sb.Draw(Game1.pallete, hitBox, color, Color.White);
-=======
             //sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
->>>>>>> bfc324036e188c54cbc5679efc89130404a56e19
         }
     }
 }

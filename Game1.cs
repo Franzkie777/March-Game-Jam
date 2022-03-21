@@ -32,7 +32,6 @@ namespace March_Game_Jam
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
-<<<<<<< HEAD
         public static Texture2D pallete;
         public static Texture2D textbox_img;
 
@@ -50,11 +49,10 @@ namespace March_Game_Jam
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
 
-        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/TextBox.json");
+        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/animation_jsons/TextBox.json");
         private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
         private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
         private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
-=======
         //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
 
         private Entities.Background background = new Entities.Background();
@@ -68,7 +66,6 @@ namespace March_Game_Jam
         public static Texture2D background_img;
         public static Texture2D item_menu_button_img;
         public static Texture2D item_menu_img;
->>>>>>> bfc324036e188c54cbc5679efc89130404a56e19
 
         public Game1()
         {
