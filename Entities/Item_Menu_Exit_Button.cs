@@ -7,8 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using March_Game_Jam.Helpers;
 
-using Microsoft.Xna.Framework.Graphics;
-
 namespace March_Game_Jam.Entities
 {
     public class Item_Menu_Exit_Button : Entity
