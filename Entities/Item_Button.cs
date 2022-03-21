@@ -11,7 +11,7 @@ namespace March_Game_Jam.Entities
 {
     public class Item_Button :Entity
     {
-        public Item_Button() : base()
+        public Item_Button() : base(1)
         {
             x= 10;
             y= 10;
@@ -25,7 +25,6 @@ namespace March_Game_Jam.Entities
             height = imageBox.Height;
             hitBox.Width = width;
             hitBox.Height = height;
-            layer=1;
         }
 
         public override void Draw(SpriteBatch sb)

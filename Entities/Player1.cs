@@ -10,6 +10,9 @@ namespace March_Game_Jam.Entities
 {
     class Player1 : Entity
     {
+        public static int pCount = 0;
+        public Rectangle color = Game1.blue;
+
         public Player1(int startX, int startY) : base()
         {
             x = startX;
