@@ -32,6 +32,27 @@ namespace March_Game_Jam
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
+        public static Texture2D pallete;
+        public static Texture2D textbox_img;
+
+        public static Rectangle red = new Rectangle(0, 0, 1, 1),
+            blue = new Rectangle(1, 0, 1, 1),
+            green= new Rectangle(2, 0, 1, 1),
+            orange = new Rectangle(3, 0, 1, 1),
+            pink = new Rectangle(4, 0, 1, 1),
+            yellow = new Rectangle(5, 0, 1, 1),
+            cyan = new Rectangle(6, 0, 1, 1),
+            magenta = new Rectangle(7, 0, 1, 1),
+            black = new Rectangle(8, 0, 1, 1),
+            white = new Rectangle(9, 0, 1, 1);
+        private Button inventory = new Button("Inventory", null);
+        private Button engine = new Button("Engine", null);
+        private Button Scanner = new Button("Scanner", null);
+
+        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/animation_jsons/TextBox.json");
+        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+        private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
+        private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
         //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
 
         private Entities.Background background = new Entities.Background();
