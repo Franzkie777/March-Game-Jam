@@ -34,9 +34,11 @@ namespace March_Game_Jam
         private Button inventory = new Button("Inventory", null);
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
-        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
 
         private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/TextBox.json");
+        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+        private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
+        private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
 
         public Game1()
         {
@@ -86,7 +88,7 @@ namespace March_Game_Jam
         protected override async void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.Black);
-            _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.Additive, SamplerState.PointClamp);
+            _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied, SamplerState.PointClamp);
 
             foreach(Entities.Entity e in Entities)
                 e.Draw(_spriteBatch);
