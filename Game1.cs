@@ -58,6 +58,10 @@ namespace March_Game_Jam
         private Entities.Background background = new Entities.Background();
         private Entities.Item_Button the_item_button = new Entities.Item_Button();
         public static Entities.Item_Menu the_item_menu = new Entities.Item_Menu();
+        public static Entities.Item_Menu_Exit_Button the_item_menu_exit_button = new Entities.Item_Menu_Exit_Button(the_item_menu);
+        //public Entities.Item test_item = new Entities.Item("test_item");
+        
+        
         public static Dictionary<dynamic,dynamic> item_list_json;
         public static Dictionary<dynamic,dynamic> problem_list_json;
         public static Dictionary<dynamic,dynamic> ship_effects_list_json;
@@ -66,6 +70,8 @@ namespace March_Game_Jam
         public static Texture2D background_img;
         public static Texture2D item_menu_button_img;
         public static Texture2D item_menu_img;
+        public static Texture2D item_menu_exit_button_img;
+
 
         public Game1()
         {
@@ -84,13 +90,22 @@ namespace March_Game_Jam
             base.Initialize();
         }
 
+        public Texture2D AddContent(string filename)
+        {
+            Texture2D content;
+            content = Texture2D.FromFile(GraphicsDevice,filename);
+            return content;
+        } 
+
+
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //graphics
             background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
             item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
-            item_menu_img = Texture2D.FromFile(GraphicsDevice,"Content/menus/Simple Storage Menu.png");
+            item_menu_img = Texture2D.FromFile(GraphicsDevice,"Content/menus/simple storage menu with boxes.png");
+            item_menu_exit_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Exit Button.png");
             //jsons
             item_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/item_list.json"));
             problem_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/problem_list.json"));
