@@ -23,6 +23,12 @@ namespace March_Game_Jam.Entities
             Game1.AddEntity(this);
         }
 
+        public Entity(int Layer)
+        {
+            layer = Layer;
+            Game1.AddEntity(this);
+        }
+
         public void Destroy()
         {
             Game1.RemoveEntity(this);

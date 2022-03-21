@@ -12,7 +12,7 @@ namespace March_Game_Jam.Entities
 {
     class Background : Entity
     {
-        public Background() : base()
+        public Background() : base(0)
         {
             x=0;
             y=0;
@@ -26,7 +26,6 @@ namespace March_Game_Jam.Entities
             height = Game1.screen_height;
             hitBox.Width = Game1.screen_width;
             hitBox.Height = Game1.screen_height;
-            layer=0;
         }
 
         public override void Draw(SpriteBatch sb)
