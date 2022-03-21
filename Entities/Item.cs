@@ -11,7 +11,7 @@ using March_Game_Jam.Helpers;
 
 namespace March_Game_Jam.Entities
 {
-    class Item : Entity
+    public class Item : Entity
     {
         public dynamic item_dict;
         public string item_idx_str;

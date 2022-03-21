@@ -56,7 +56,7 @@ namespace March_Game_Jam.Entities
         }
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.scrolling_stars_img,hitBox,imageBox,Color.White);
+            //sb.Draw(Game1.scrolling_stars_img,hitBox,imageBox,Color.White);
         }
 
         public override void Update()
