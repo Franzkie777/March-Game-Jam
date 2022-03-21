@@ -1,0 +1,4518 @@
+{ "frames": [
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 0.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 1.aseprite",
+    "frame": { "x": 0, "y": 0, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 2.aseprite",
+    "frame": { "x": 0, "y": 499, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 3.aseprite",
+    "frame": { "x": 0, "y": 998, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 4.aseprite",
+    "frame": { "x": 0, "y": 1497, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 5.aseprite",
+    "frame": { "x": 0, "y": 1996, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 6.aseprite",
+    "frame": { "x": 0, "y": 2495, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 7.aseprite",
+    "frame": { "x": 0, "y": 2994, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 8.aseprite",
+    "frame": { "x": 0, "y": 3493, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 9.aseprite",
+    "frame": { "x": 0, "y": 3992, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 10.aseprite",
+    "frame": { "x": 0, "y": 4491, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 11.aseprite",
+    "frame": { "x": 0, "y": 4990, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 12.aseprite",
+    "frame": { "x": 0, "y": 5489, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 13.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 14.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 15.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 16.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 17.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 18.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 19.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 20.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 21.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 22.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 23.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 24.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 25.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 26.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 27.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 14, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 28.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 15, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 29.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 16, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 30.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 17, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 31.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 18, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 32.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 19, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 33.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 20, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 34.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 21, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 35.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 22, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 36.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 23, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 37.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 24, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 38.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 25, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 39.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 26, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 40.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 27, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 41.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 28, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 42.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 29, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 43.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 30, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 44.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 31, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 45.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 32, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 46.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 33, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 47.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 34, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 48.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 35, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 49.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 36, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 50.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 37, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 51.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 38, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 52.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 39, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 53.aseprite",
+    "frame": { "x": 0, "y": 5988, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 40, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 54.aseprite",
+    "frame": { "x": 0, "y": 6447, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 55.aseprite",
+    "frame": { "x": 0, "y": 6946, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 56.aseprite",
+    "frame": { "x": 0, "y": 7445, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 57.aseprite",
+    "frame": { "x": 0, "y": 7944, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 58.aseprite",
+    "frame": { "x": 0, "y": 8443, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 59.aseprite",
+    "frame": { "x": 0, "y": 8942, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 60.aseprite",
+    "frame": { "x": 0, "y": 9441, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 61.aseprite",
+    "frame": { "x": 0, "y": 9940, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 62.aseprite",
+    "frame": { "x": 0, "y": 10439, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 63.aseprite",
+    "frame": { "x": 0, "y": 10938, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 64.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 65.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 66.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 67.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 68.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 69.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 70.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 71.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 72.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 73.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 74.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 75.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 76.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 77.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 78.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 14, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 79.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 15, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 80.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 16, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 81.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 17, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 82.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 18, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 83.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 19, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 84.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 20, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 85.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 21, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 86.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 22, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 87.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 23, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 88.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 24, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 89.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 25, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 90.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 26, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 91.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 27, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 92.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 28, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 93.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 29, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 94.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 30, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 95.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 31, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 96.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 32, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 97.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 33, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 98.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 34, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 99.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 35, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 100.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 36, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 101.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 37, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 102.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 38, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 103.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 39, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 104.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 40, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 105.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 41, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 106.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 42, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 107.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 43, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 108.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 44, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 109.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 45, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 110.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 46, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 111.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 47, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 112.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 48, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 113.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 49, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 114.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 50, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 115.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 51, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 116.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 52, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 117.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 53, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 118.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 54, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 119.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 55, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 120.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 56, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 121.aseprite",
+    "frame": { "x": 0, "y": 11437, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 57, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 122.aseprite",
+    "frame": { "x": 0, "y": 11879, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 123.aseprite",
+    "frame": { "x": 0, "y": 12378, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 124.aseprite",
+    "frame": { "x": 0, "y": 12877, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 125.aseprite",
+    "frame": { "x": 0, "y": 13376, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 126.aseprite",
+    "frame": { "x": 0, "y": 13875, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 127.aseprite",
+    "frame": { "x": 0, "y": 14374, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 128.aseprite",
+    "frame": { "x": 0, "y": 14873, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 129.aseprite",
+    "frame": { "x": 0, "y": 15372, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 130.aseprite",
+    "frame": { "x": 0, "y": 15871, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 131.aseprite",
+    "frame": { "x": 0, "y": 16370, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 132.aseprite",
+    "frame": { "x": 0, "y": 16869, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 133.aseprite",
+    "frame": { "x": 0, "y": 17368, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 134.aseprite",
+    "frame": { "x": 0, "y": 17867, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 135.aseprite",
+    "frame": { "x": 0, "y": 18366, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 136.aseprite",
+    "frame": { "x": 0, "y": 18865, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 137.aseprite",
+    "frame": { "x": 0, "y": 19364, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 138.aseprite",
+    "frame": { "x": 0, "y": 19863, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 139.aseprite",
+    "frame": { "x": 0, "y": 20362, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 140.aseprite",
+    "frame": { "x": 0, "y": 20861, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 141.aseprite",
+    "frame": { "x": 0, "y": 21360, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 142.aseprite",
+    "frame": { "x": 0, "y": 21859, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 143.aseprite",
+    "frame": { "x": 0, "y": 22358, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 144.aseprite",
+    "frame": { "x": 0, "y": 22857, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 145.aseprite",
+    "frame": { "x": 0, "y": 23356, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 146.aseprite",
+    "frame": { "x": 0, "y": 23855, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 147.aseprite",
+    "frame": { "x": 0, "y": 24354, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 148.aseprite",
+    "frame": { "x": 0, "y": 24853, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 149.aseprite",
+    "frame": { "x": 0, "y": 25352, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 150.aseprite",
+    "frame": { "x": 0, "y": 25851, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 151.aseprite",
+    "frame": { "x": 0, "y": 26350, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 152.aseprite",
+    "frame": { "x": 0, "y": 26849, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 153.aseprite",
+    "frame": { "x": 0, "y": 27348, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 154.aseprite",
+    "frame": { "x": 0, "y": 27847, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 155.aseprite",
+    "frame": { "x": 0, "y": 28346, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 156.aseprite",
+    "frame": { "x": 0, "y": 28845, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 157.aseprite",
+    "frame": { "x": 0, "y": 29344, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 158.aseprite",
+    "frame": { "x": 0, "y": 29843, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 159.aseprite",
+    "frame": { "x": 0, "y": 30342, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 160.aseprite",
+    "frame": { "x": 0, "y": 30841, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 161.aseprite",
+    "frame": { "x": 0, "y": 31340, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 162.aseprite",
+    "frame": { "x": 0, "y": 31839, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 163.aseprite",
+    "frame": { "x": 0, "y": 32338, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 164.aseprite",
+    "frame": { "x": 0, "y": 32338, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 165.aseprite",
+    "frame": { "x": 0, "y": 32836, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 166.aseprite",
+    "frame": { "x": 0, "y": 33335, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 167.aseprite",
+    "frame": { "x": 0, "y": 33834, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 168.aseprite",
+    "frame": { "x": 0, "y": 34333, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 169.aseprite",
+    "frame": { "x": 0, "y": 34832, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 170.aseprite",
+    "frame": { "x": 0, "y": 35331, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 171.aseprite",
+    "frame": { "x": 0, "y": 35830, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 172.aseprite",
+    "frame": { "x": 0, "y": 36329, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 173.aseprite",
+    "frame": { "x": 0, "y": 36828, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 174.aseprite",
+    "frame": { "x": 0, "y": 37327, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 175.aseprite",
+    "frame": { "x": 0, "y": 37826, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 176.aseprite",
+    "frame": { "x": 0, "y": 38325, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 177.aseprite",
+    "frame": { "x": 0, "y": 38824, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 178.aseprite",
+    "frame": { "x": 0, "y": 39323, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 179.aseprite",
+    "frame": { "x": 0, "y": 39822, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 180.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 181.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 182.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 183.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 184.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 185.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 186.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 187.aseprite",
+    "frame": { "x": 0, "y": 40321, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 188.aseprite",
+    "frame": { "x": 0, "y": 40813, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 189.aseprite",
+    "frame": { "x": 0, "y": 41312, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 190.aseprite",
+    "frame": { "x": 0, "y": 41811, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 191.aseprite",
+    "frame": { "x": 0, "y": 42310, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 192.aseprite",
+    "frame": { "x": 0, "y": 42809, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 193.aseprite",
+    "frame": { "x": 0, "y": 43308, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 194.aseprite",
+    "frame": { "x": 0, "y": 43807, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 195.aseprite",
+    "frame": { "x": 0, "y": 44306, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 196.aseprite",
+    "frame": { "x": 0, "y": 44805, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 197.aseprite",
+    "frame": { "x": 0, "y": 45304, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 198.aseprite",
+    "frame": { "x": 0, "y": 45803, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 199.aseprite",
+    "frame": { "x": 0, "y": 46302, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 200.aseprite",
+    "frame": { "x": 0, "y": 46801, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 201.aseprite",
+    "frame": { "x": 0, "y": 47300, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 202.aseprite",
+    "frame": { "x": 0, "y": 47799, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 203.aseprite",
+    "frame": { "x": 0, "y": 48298, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 204.aseprite",
+    "frame": { "x": 0, "y": 48797, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 205.aseprite",
+    "frame": { "x": 0, "y": 49296, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 206.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 207.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 208.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 209.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 210.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 211.aseprite",
+    "frame": { "x": 0, "y": 49795, "w": 426, "h": 494 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 494 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 212.aseprite",
+    "frame": { "x": 0, "y": 50289, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 213.aseprite",
+    "frame": { "x": 0, "y": 50788, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 214.aseprite",
+    "frame": { "x": 0, "y": 51287, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 215.aseprite",
+    "frame": { "x": 0, "y": 51786, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 216.aseprite",
+    "frame": { "x": 0, "y": 52285, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 217.aseprite",
+    "frame": { "x": 0, "y": 52784, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 218.aseprite",
+    "frame": { "x": 0, "y": 53283, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 219.aseprite",
+    "frame": { "x": 0, "y": 53782, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 220.aseprite",
+    "frame": { "x": 0, "y": 54281, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 221.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 222.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 223.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 224.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 225.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 226.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 227.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 228.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 229.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 230.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 231.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 232.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 233.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 234.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 235.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 14, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 236.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 15, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 237.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 16, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 238.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 17, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 239.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 18, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 240.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 19, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 241.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 20, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 242.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 21, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 243.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 22, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 244.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 23, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 245.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 24, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 246.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 25, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 247.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 26, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 248.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 27, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 249.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 28, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 250.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 29, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 251.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 30, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 252.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 31, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 253.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 32, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 254.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 33, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 255.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 34, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 256.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 35, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 257.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 36, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 258.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 37, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 259.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 38, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 260.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 39, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 261.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 40, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 262.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 41, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 263.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 42, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 264.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 43, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 265.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 44, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 266.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 45, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 267.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 46, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 268.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 47, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 269.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 48, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 270.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 49, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 271.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 50, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 272.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 51, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 273.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 52, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 274.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 53, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 275.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 54, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 276.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 55, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 277.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 56, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 278.aseprite",
+    "frame": { "x": 0, "y": 54780, "w": 426, "h": 442 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 57, "w": 426, "h": 442 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 279.aseprite",
+    "frame": { "x": 0, "y": 55222, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 280.aseprite",
+    "frame": { "x": 0, "y": 55721, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 281.aseprite",
+    "frame": { "x": 0, "y": 56220, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 282.aseprite",
+    "frame": { "x": 0, "y": 56719, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 283.aseprite",
+    "frame": { "x": 0, "y": 57218, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 284.aseprite",
+    "frame": { "x": 0, "y": 57717, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 285.aseprite",
+    "frame": { "x": 0, "y": 58216, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 286.aseprite",
+    "frame": { "x": 0, "y": 58715, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 287.aseprite",
+    "frame": { "x": 0, "y": 59214, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 288.aseprite",
+    "frame": { "x": 0, "y": 59713, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 289.aseprite",
+    "frame": { "x": 0, "y": 60212, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 290.aseprite",
+    "frame": { "x": 0, "y": 60711, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 291.aseprite",
+    "frame": { "x": 0, "y": 61210, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 292.aseprite",
+    "frame": { "x": 0, "y": 61709, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 293.aseprite",
+    "frame": { "x": 0, "y": 62208, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 294.aseprite",
+    "frame": { "x": 0, "y": 62707, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 295.aseprite",
+    "frame": { "x": 0, "y": 63206, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 296.aseprite",
+    "frame": { "x": 0, "y": 63705, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 297.aseprite",
+    "frame": { "x": 0, "y": 64204, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 298.aseprite",
+    "frame": { "x": 0, "y": 64703, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 299.aseprite",
+    "frame": { "x": 0, "y": 65202, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 300.aseprite",
+    "frame": { "x": 0, "y": 65701, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 301.aseprite",
+    "frame": { "x": 0, "y": 66200, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 302.aseprite",
+    "frame": { "x": 0, "y": 66699, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 303.aseprite",
+    "frame": { "x": 0, "y": 67198, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 304.aseprite",
+    "frame": { "x": 0, "y": 67697, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 305.aseprite",
+    "frame": { "x": 0, "y": 68196, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 306.aseprite",
+    "frame": { "x": 0, "y": 68695, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 307.aseprite",
+    "frame": { "x": 0, "y": 69194, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 308.aseprite",
+    "frame": { "x": 0, "y": 69693, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 309.aseprite",
+    "frame": { "x": 0, "y": 70192, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 310.aseprite",
+    "frame": { "x": 0, "y": 70691, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 311.aseprite",
+    "frame": { "x": 0, "y": 71190, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 312.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 313.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 314.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 315.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 316.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 317.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 318.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 319.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 320.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 321.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 322.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 323.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 324.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 325.aseprite",
+    "frame": { "x": 0, "y": 71689, "w": 426, "h": 486 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 486 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 326.aseprite",
+    "frame": { "x": 0, "y": 72175, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 327.aseprite",
+    "frame": { "x": 0, "y": 72674, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 328.aseprite",
+    "frame": { "x": 0, "y": 73173, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 329.aseprite",
+    "frame": { "x": 0, "y": 73672, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 330.aseprite",
+    "frame": { "x": 0, "y": 74171, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 331.aseprite",
+    "frame": { "x": 0, "y": 74670, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 332.aseprite",
+    "frame": { "x": 0, "y": 75169, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 333.aseprite",
+    "frame": { "x": 0, "y": 75668, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 334.aseprite",
+    "frame": { "x": 0, "y": 76167, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 335.aseprite",
+    "frame": { "x": 0, "y": 76666, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 336.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 337.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 338.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 339.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 340.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 341.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 342.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 343.aseprite",
+    "frame": { "x": 0, "y": 77165, "w": 426, "h": 492 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 492 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 344.aseprite",
+    "frame": { "x": 0, "y": 77657, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 345.aseprite",
+    "frame": { "x": 0, "y": 78156, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 346.aseprite",
+    "frame": { "x": 0, "y": 78655, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 347.aseprite",
+    "frame": { "x": 0, "y": 79154, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 348.aseprite",
+    "frame": { "x": 0, "y": 79653, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 349.aseprite",
+    "frame": { "x": 0, "y": 80152, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 350.aseprite",
+    "frame": { "x": 0, "y": 80651, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 351.aseprite",
+    "frame": { "x": 0, "y": 80651, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 352.aseprite",
+    "frame": { "x": 0, "y": 81149, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 353.aseprite",
+    "frame": { "x": 0, "y": 81648, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 354.aseprite",
+    "frame": { "x": 0, "y": 82147, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 355.aseprite",
+    "frame": { "x": 0, "y": 82646, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 356.aseprite",
+    "frame": { "x": 0, "y": 83145, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 357.aseprite",
+    "frame": { "x": 0, "y": 83644, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 358.aseprite",
+    "frame": { "x": 0, "y": 84143, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 359.aseprite",
+    "frame": { "x": 0, "y": 84642, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 360.aseprite",
+    "frame": { "x": 0, "y": 85141, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 361.aseprite",
+    "frame": { "x": 0, "y": 85640, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 362.aseprite",
+    "frame": { "x": 0, "y": 86139, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 363.aseprite",
+    "frame": { "x": 0, "y": 86638, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 364.aseprite",
+    "frame": { "x": 0, "y": 87137, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 365.aseprite",
+    "frame": { "x": 0, "y": 87636, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 366.aseprite",
+    "frame": { "x": 0, "y": 88135, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 367.aseprite",
+    "frame": { "x": 0, "y": 88634, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 368.aseprite",
+    "frame": { "x": 0, "y": 89133, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 369.aseprite",
+    "frame": { "x": 0, "y": 89632, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 370.aseprite",
+    "frame": { "x": 0, "y": 90131, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 371.aseprite",
+    "frame": { "x": 0, "y": 90630, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 372.aseprite",
+    "frame": { "x": 0, "y": 91129, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 373.aseprite",
+    "frame": { "x": 0, "y": 91628, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 374.aseprite",
+    "frame": { "x": 0, "y": 92127, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 375.aseprite",
+    "frame": { "x": 0, "y": 92626, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 376.aseprite",
+    "frame": { "x": 0, "y": 93125, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 377.aseprite",
+    "frame": { "x": 0, "y": 93624, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 378.aseprite",
+    "frame": { "x": 0, "y": 94123, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 379.aseprite",
+    "frame": { "x": 0, "y": 94622, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 380.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 381.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 382.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 383.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 384.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 385.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 386.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 387.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 388.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 389.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 390.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 391.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 392.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 393.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 394.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 14, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 395.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 15, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 396.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 16, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 397.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 17, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 398.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 18, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 399.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 19, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 400.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 20, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 401.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 21, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 402.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 22, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 403.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 23, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 404.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 24, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 405.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 25, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 406.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 26, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 407.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 27, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 408.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 28, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 409.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 29, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 410.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 30, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 411.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 31, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 412.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 32, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 413.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 33, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 414.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 34, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 415.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 35, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 416.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 36, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 417.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 37, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 418.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 38, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 419.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 39, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 420.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 40, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 421.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 41, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 422.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 42, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 423.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 43, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 424.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 44, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 425.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 45, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 426.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 46, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 427.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 47, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 428.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 48, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 429.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 49, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 430.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 50, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 431.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 51, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 432.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 52, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 433.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 53, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 434.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 54, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 435.aseprite",
+    "frame": { "x": 0, "y": 95121, "w": 426, "h": 444 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 55, "w": 426, "h": 444 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 436.aseprite",
+    "frame": { "x": 0, "y": 95565, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 437.aseprite",
+    "frame": { "x": 0, "y": 96064, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 438.aseprite",
+    "frame": { "x": 0, "y": 96563, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 439.aseprite",
+    "frame": { "x": 0, "y": 97062, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 440.aseprite",
+    "frame": { "x": 0, "y": 97561, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 441.aseprite",
+    "frame": { "x": 0, "y": 98060, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 442.aseprite",
+    "frame": { "x": 0, "y": 98559, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 443.aseprite",
+    "frame": { "x": 0, "y": 99058, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 444.aseprite",
+    "frame": { "x": 0, "y": 99557, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 445.aseprite",
+    "frame": { "x": 0, "y": 100056, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 446.aseprite",
+    "frame": { "x": 0, "y": 100555, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 447.aseprite",
+    "frame": { "x": 0, "y": 101054, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 448.aseprite",
+    "frame": { "x": 0, "y": 101553, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 449.aseprite",
+    "frame": { "x": 0, "y": 102052, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 450.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 451.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 452.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 2, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 453.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 3, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 454.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 4, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 455.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 5, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 456.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 6, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 457.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 7, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 458.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 8, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 459.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 9, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 460.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 10, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 461.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 11, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 462.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 12, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 463.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 13, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 464.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 14, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 465.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 15, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 466.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 16, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 467.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 17, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 468.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 18, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 469.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 19, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 470.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 20, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 471.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 21, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 472.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 22, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 473.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 23, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 474.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 24, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 475.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 25, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 476.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 26, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 477.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 27, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 478.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 28, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 479.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 29, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 480.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 30, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 481.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 31, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 482.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 32, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 483.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 33, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 484.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 34, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 485.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 35, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 486.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 36, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 487.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 37, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 488.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 38, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 489.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 39, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 490.aseprite",
+    "frame": { "x": 0, "y": 102551, "w": 426, "h": 459 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 40, "w": 426, "h": 459 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 491.aseprite",
+    "frame": { "x": 0, "y": 103010, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 492.aseprite",
+    "frame": { "x": 0, "y": 103509, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 493.aseprite",
+    "frame": { "x": 0, "y": 104008, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 494.aseprite",
+    "frame": { "x": 0, "y": 104507, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 495.aseprite",
+    "frame": { "x": 0, "y": 105006, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 496.aseprite",
+    "frame": { "x": 0, "y": 105505, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 497.aseprite",
+    "frame": { "x": 0, "y": 106004, "w": 426, "h": 499 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 499 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 498.aseprite",
+    "frame": { "x": 0, "y": 106503, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 0, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   },
+   {
+    "filename": "Moving Stars Layer (Stars 2 Copy) 499.aseprite",
+    "frame": { "x": 0, "y": 106503, "w": 426, "h": 498 },
+    "rotated": false,
+    "trimmed": true,
+    "spriteSourceSize": { "x": 6, "y": 1, "w": 426, "h": 498 },
+    "sourceSize": { "w": 1000, "h": 1000 },
+    "duration": 100
+   }
+ ],
+ "meta": {
+  "app": "https://www.aseprite.org/",
+  "version": "1.2.33-x64",
+  "image": "Scrolling Stars.png",
+  "format": "RGBA8888",
+  "size": { "w": 426, "h": 107001 },
+  "scale": "1",
+  "frameTags": [
+  ],
+  "layers": [
+   { "name": "Stars 2 Copy", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

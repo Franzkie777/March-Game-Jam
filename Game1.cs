@@ -4,20 +4,35 @@ using Microsoft.Xna.Framework.Input;
 using March_Game_Jam.Buttons;
 using System.IO;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace March_Game_Jam
 {
     public class Game1 : Game
-    {
+    {   
+        //Mouse Stuff
         private static bool mouseWasUp = false;
         public static bool mouseClicked = false;
         public static bool mouseDown = false;
+
+        //Graphics
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
+        public static int screen_width;
+        public static int screen_height;
+
+        public void UpdateScreenSize()
+        {
+            screen_width = GraphicsDevice.Viewport.Width;
+            screen_height = GraphicsDevice.Viewport.Height;
+        }
+
+        //Entities
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
+<<<<<<< HEAD
         public static Texture2D pallete;
         public static Texture2D textbox_img;
 
@@ -39,12 +54,28 @@ namespace March_Game_Jam
         private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
         private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
         private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
+=======
+        //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
+
+        private Entities.Background background = new Entities.Background();
+        private Entities.Item_Button the_item_button = new Entities.Item_Button();
+        public static Entities.Item_Menu the_item_menu = new Entities.Item_Menu();
+        public static Dictionary<dynamic,dynamic> item_list_json;
+        public static Dictionary<dynamic,dynamic> problem_list_json;
+        public static Dictionary<dynamic,dynamic> ship_effects_list_json;
+        public static Dictionary<dynamic,dynamic> recipe_list_json;
+        //Textures
+        public static Texture2D background_img;
+        public static Texture2D item_menu_button_img;
+        public static Texture2D item_menu_img;
+>>>>>>> bfc324036e188c54cbc5679efc89130404a56e19
 
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            Window.AllowUserResizing = true;
 
             
         }
@@ -59,14 +90,21 @@ namespace March_Game_Jam
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
+            //graphics
+            background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
+            item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
+            item_menu_img = Texture2D.FromFile(GraphicsDevice,"Content/menus/Simple Storage Menu.png");
+            //jsons
+            item_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/item_list.json"));
+            problem_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/problem_list.json"));
+            ship_effects_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/ship_effects_list.json"));
 
-            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
-            textbox_img = Texture2D.FromFile(GraphicsDevice, "Content/TextBox.png");
             // TODO: use this.Content to load your game content here
         }
 
         protected override void Update(GameTime gameTime)
         {
+            UpdateScreenSize();
             MouseHoveredEntities.Clear();
             mouseClicked = MouseClickCheck();
             mouseDown = MouseDownCheck();

@@ -1,0 +1,25 @@
+{
+    "problems":{
+        "test_problem":{
+            "index":0,
+            "problem_name": "test_problem",
+            "problem_display_name": "Test Problem",
+            "description": "A description of the test problem. This test problem looks a lot like a fire.",
+            "solutions_sets":[
+                {
+                    "solution_attributes":["FIRE_RETARDENT","LIQUID"],
+                    "solution_description": "You quenched the fire. We are safe now."
+                },
+                {
+                    "solution_attributes":["FIRE_RETARDENT","SOLID"],
+                    "solution_description": "You smothered the fire. We are safe now."
+                }
+            ],
+            "ship_effects":[
+                "FIRE_DAMAGE",
+                "SMOKE_INHALATION",
+                "BURNS"
+            ]
+        }
+    }
+}
