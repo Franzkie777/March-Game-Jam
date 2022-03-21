@@ -12,21 +12,23 @@ namespace March_Game_Jam.Entities
     public class Item_Menu : Entity
     {
         public string state;
+        public int size_scalar;
         public Item_Menu() : base()
         {
+            size_scalar = 300; 
             x= 10;
             y= 10;
             hitBox.X=x;
             hitBox.Y=y;
             imageBox.X = 0;
             imageBox.Y = 0;
-            imageBox.Width = 146;
-            imageBox.Height = 141;
+            imageBox.Width = 138;
+            imageBox.Height = 121;
             width = imageBox.Width;
             height = imageBox.Height;
             hitBox.Width = width;
             hitBox.Height = height;
-            layer=2;
+            layer=-1;
             state = "CLOSED";
         }
 
