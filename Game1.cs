@@ -30,10 +30,12 @@ namespace March_Game_Jam
 
         //Entities
         public static List<Entities.Entity> Entities = new List<Entities.Entity>();
+        public static List<Entities.Entity> add_Entities = new List<Entities.Entity>();
+        public static List<Entities.Entity> remove_Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
 
         public static Texture2D pallete;
-        public static Texture2D textbox_img;
+        public Texture2D textbox_img;
 
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
@@ -54,14 +56,16 @@ namespace March_Game_Jam
         private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
         private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
         //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
-
-        private Entities.Background background = new Entities.Background();
-        private Entities.Item_Button the_item_button = new Entities.Item_Button();
+        private static Entities.Background background = new Entities.Background();
+        private static Entities.Item_Button the_item_button = new Entities.Item_Button();
         public static Entities.Item_Menu the_item_menu = new Entities.Item_Menu();
         public static Entities.Item_Menu_Exit_Button the_item_menu_exit_button = new Entities.Item_Menu_Exit_Button(the_item_menu);
-        //public Entities.Item test_item = new Entities.Item("test_item");
-        
-        
+        public static Entities.Item test_item;
+
+
+        public static Entities.Storage storage = new March_Game_Jam.Entities.Storage();
+
+
         public static Dictionary<dynamic,dynamic> item_list_json;
         public static Dictionary<dynamic,dynamic> problem_list_json;
         public static Dictionary<dynamic,dynamic> ship_effects_list_json;
@@ -72,7 +76,7 @@ namespace March_Game_Jam
         public static Texture2D item_menu_img;
         public static Texture2D item_menu_exit_button_img;
 
-
+        public static Dictionary<string,Texture2D> item_image_dictionary = new Dictionary<string, Texture2D>();
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -90,14 +94,10 @@ namespace March_Game_Jam
             base.Initialize();
         }
 
-        public Texture2D AddContent(string filename)
-        {
-            Texture2D content;
-            content = Texture2D.FromFile(GraphicsDevice,filename);
-            return content;
-        } 
+        public Texture2D load_img(string filename){
 
-
+            return Texture2D.FromFile(GraphicsDevice,filename);
+        }
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
@@ -111,11 +111,22 @@ namespace March_Game_Jam
             problem_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/problem_list.json"));
             ship_effects_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/ship_effects_list.json"));
 
+            foreach (dynamic item_img in item_list_json["items"])
+            {
+                string file_name = "Content/items/"+item_img.Name+".png";
+                if (File.Exists(file_name))
+                {
+                    Texture2D temp_img = load_img(file_name);
+                    item_image_dictionary.Add(item_img.Name,temp_img);
+                }
+            }
+
             // TODO: use this.Content to load your game content here
         }
 
-        protected override void Update(GameTime gameTime)
+        protected override async void Update(GameTime gameTime)
         {
+
             UpdateScreenSize();
             MouseHoveredEntities.Clear();
             mouseClicked = MouseClickCheck();
@@ -129,8 +140,11 @@ namespace March_Game_Jam
                 }
             }
 
-            foreach(Entities.Entity e in Entities)
-                e.Update();
+
+
+
+            for (int i=0; i<=Entities.Count;i++)
+                Entities[i].Update();
                 
             base.Update(gameTime);
         }
@@ -190,5 +204,8 @@ namespace March_Game_Jam
             return clicked;
         }
 
+        public static void Start_Storage() {
+            //storage.add_to_storage(test_item);
+        }
     }
 }
