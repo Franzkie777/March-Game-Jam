@@ -34,7 +34,7 @@ namespace March_Game_Jam.Entities
             state = "CLOSED";
             hitBox.Width = width;
             hitBox.Height = height;
-        }
+            }
 
         public void updateCurrentAnimationFrame(int i)
         {
