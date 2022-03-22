@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = March_Game_Jam
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\molendadewey13\Documents\March Game Jam Proper\March-Game-Jam\
+=======
+build_property.ProjectDir = c:\Users\jesse\Documents\GameJam22\
+>>>>>>> 9dd83af68cd07fb8f283395f67e9d0e785b57f7a

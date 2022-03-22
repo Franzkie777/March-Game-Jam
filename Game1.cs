@@ -33,7 +33,7 @@ namespace March_Game_Jam
         public static List<Entities.Entity> add_Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> remove_Entities = new List<Entities.Entity>();
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
-
+        public static SpriteFont font;
         public static Texture2D pallete;
         public Texture2D textbox_img;
 
@@ -83,7 +83,6 @@ namespace March_Game_Jam
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             Window.AllowUserResizing = true;
-
             
         }
 
@@ -102,6 +101,7 @@ namespace March_Game_Jam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //graphics
+            font = Content.Load<SpriteFont>("Terminal");
             background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
             item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
             item_menu_img = Texture2D.FromFile(GraphicsDevice,"Content/menus/simple storage menu with boxes.png");
@@ -140,12 +140,27 @@ namespace March_Game_Jam
                 }
             }
 
+<<<<<<< HEAD
 
 
 
             for (int i=0; i<=Entities.Count;i++)
                 Entities[i].Update();
                 
+=======
+            foreach(Entities.Entity e in Entities)
+                e.Update();
+            
+            foreach(Entities.Entity e in remove_Entities)
+                RemoveQueued(e);
+
+            foreach(Entities.Entity e in add_Entities)
+                AddQueued(e);
+
+            remove_Entities.Clear();
+            add_Entities.Clear();
+
+>>>>>>> 9dd83af68cd07fb8f283395f67e9d0e785b57f7a
             base.Update(gameTime);
         }
 
@@ -161,7 +176,7 @@ namespace March_Game_Jam
             base.Draw(gameTime);
         }
 
-        public static async void AddEntity(Entities.Entity e) {
+        public static void AddQueued(Entities.Entity e) {
             bool added = false;
             for(int i = 0; i < Entities.Count; i++) {
                 if(Entities[i].layer >= e.layer) {
@@ -176,8 +191,16 @@ namespace March_Game_Jam
             }
         }
 
-        public static void RemoveEntity(Entities.Entity e) {
+        public static void RemoveQueued(Entities.Entity e) {
             Entities.Remove(e);
+        }
+
+        public static void AddEntity(Entities.Entity e) {
+            add_Entities.Add(e);
+        }
+
+        public static void RemoveEntity(Entities.Entity e) {
+            remove_Entities.Add(e);
         }
 
         public static bool MouseOver(Rectangle rect) {
