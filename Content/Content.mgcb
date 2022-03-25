@@ -13,10 +13,3 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Terminal.spritefont
-/importer:FontDescriptionImporter
-/processor:FontDescriptionProcessor
-/processorParam:PremultiplyAlpha=True
-/processorParam:TextureFormat=Compressed
-/build:Terminal.spritefont
-

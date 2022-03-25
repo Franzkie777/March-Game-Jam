@@ -1,11 +1,13 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Runtime;
 
 namespace March_Game_Jam.Entities
 {
     public class Timer : Entity
     {
-        //public static Date time;
+        public static DateTime time = new DateTime();
+        
         public Timer() : base(20)
         {
             width = 0;
@@ -20,7 +22,7 @@ namespace March_Game_Jam.Entities
 
         public override void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.item_menu_button_img,hitBox,imageBox,Color.White);
+            //sb.DrawString(Game1.font, );
         }
 
         public override void Update()
