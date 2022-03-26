@@ -88,6 +88,7 @@ namespace March_Game_Jam
             Dad.dadPicBox = new Rectangle(0, 0, Dad.dadPic.Width, Dad.dadPic.Height);
             Child.kidPic = Texture2D.FromFile(GraphicsDevice, "Content/Baby2.png");
             Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
+            font = Content.Load<SpriteFont>("bauhs");
             
             // TODO: use this.Content to load your game content here
             currentGameState = new FightScene();
