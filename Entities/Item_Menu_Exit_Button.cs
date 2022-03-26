@@ -12,7 +12,7 @@ namespace March_Game_Jam.Entities
     public class Item_Menu_Exit_Button : Entity
     {
         public Item_Menu item_Menu;
-        public Item_Menu_Exit_Button(Item_Menu an_item_Menu) : base(){
+        public Item_Menu_Exit_Button(Item_Menu an_item_Menu) : base(3){
             item_Menu = an_item_Menu;
             x= item_Menu.x;
             y= item_Menu.y;

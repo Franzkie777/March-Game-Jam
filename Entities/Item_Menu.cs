@@ -13,7 +13,7 @@ namespace March_Game_Jam.Entities
     {
         public string state;
         public int size_scalar;
-        public Item_Menu() : base()
+        public Item_Menu() : base(2)
         {
             size_scalar = 300; 
             x= 10;
@@ -28,7 +28,7 @@ namespace March_Game_Jam.Entities
             height = imageBox.Height;
             hitBox.Width = width;
             hitBox.Height = height;
-            layer=-1;
+            layer=2;
             state = "CLOSED";
         }
 
@@ -44,6 +44,7 @@ namespace March_Game_Jam.Entities
         public void Open()
         {
             state = "OPEN";
+            Item test_item = new Item("test_item");
         }
 
         public void Close()

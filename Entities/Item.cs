@@ -23,7 +23,7 @@ namespace March_Game_Jam.Entities
         public List<string> item_attributes;
         public Dictionary<string,dynamic> item_starting_stats;
 
-        public static Texture2D item_graphic;
+        public Texture2D item_graphic;
         public Item(string item_name) : base()
         {
             //load item info from item_list.json
@@ -34,11 +34,12 @@ namespace March_Game_Jam.Entities
             item_display_name = item_dict["item_display_name"];
             item_description = item_dict["description"];
             item_attributes = item_dict["item_attributes"];
-            item_starting_stats = item_dict["item_starting_stats"];            
+            item_starting_stats = item_dict["item_starting_stats"]; 
 
-            
+            //item_graphic = Game1.item_image_dictionary[item_graphic_source];                   
         }
-        
+
+
         public override void Draw(SpriteBatch sb)
         {
             
