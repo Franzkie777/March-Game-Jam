@@ -25,6 +25,7 @@ namespace March_Game_Jam.Entities
             height = imageBox.Height;
             hitBox.Width = width;
             hitBox.Height = height;
+            
         }
 
         public override void Draw(SpriteBatch sb)

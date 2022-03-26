@@ -15,6 +15,7 @@ namespace March_Game_Jam.GameStates
         public static ActionButton[] actionList = new ActionButton[4];
         public FightScene() : base()
         {
+            //Instantiate and draw Dad and Child Objects.
             dad = new Dad(100, 150);
             child = new Child(300, 150);
             void Test() {

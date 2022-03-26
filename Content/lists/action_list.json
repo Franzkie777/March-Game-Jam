@@ -1,6 +1,6 @@
 {
-    "items":{
-        "test_item":{
+    "actions":{
+        "action_item":{
             "index":0,
             "item_name":"test_item",
             "item_graphic_source": "test_item.png",
@@ -17,7 +17,7 @@
                 "size":10
             }
         },
-        "test_item_2":{
+        "action_item_2":{
             "index":1,
             "item_name":"test_item_2",
             "item_graphic_source": "test_item_2.png",

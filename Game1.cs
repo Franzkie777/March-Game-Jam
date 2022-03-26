@@ -41,6 +41,8 @@ namespace March_Game_Jam
         public static SpriteFont font;
         public static Texture2D pallete;
         public static Texture2D textbox_img;
+        public static dynamic actions_dict;
+        public static dynamic problems_dict;
         //private static Player1 testPlayer = new Player1(100, 100);
 
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
@@ -90,6 +92,10 @@ namespace March_Game_Jam
             Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
             font = Content.Load<SpriteFont>("bauhs");
             
+            // load json lists
+            actions_dict = JsonConvert.DeserializeObject(File.ReadAllText("Content/lists/action_list.json"));
+            problems_dict = JsonConvert.DeserializeObject(File.ReadAllText("Content/lists/problem_list.json"));
+
             // TODO: use this.Content to load your game content here
             currentGameState = new FightScene();
             
