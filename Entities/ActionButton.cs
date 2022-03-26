@@ -28,6 +28,7 @@ namespace March_Game_Jam.Entities
         public override void Draw(SpriteBatch sb)
         {
             sb.Draw(Game1.pallete,hitBox,Game1.blue,Color.White);
+            //TODO: Write ability name
         }
 
         public override void Update()
