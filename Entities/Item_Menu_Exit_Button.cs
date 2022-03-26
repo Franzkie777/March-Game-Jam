@@ -31,15 +31,15 @@ namespace March_Game_Jam.Entities
         public override void Draw(SpriteBatch sb)
         {
             if (item_Menu.state=="OPEN"){
-                sb.Draw(Game1.item_menu_exit_button_img,hitBox,imageBox,Color.White);
+                //sb.Draw(Game1.item_menu_exit_button_img,hitBox,imageBox,Color.White);
             }
         }
 
         public override void Update()
         {
-            if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked && Game1.the_item_menu.state=="OPEN"){
-                Game1.the_item_menu.Close();
-            }
+            //if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked && Game1.the_item_menu.state=="OPEN"){
+                //Game1.the_item_menu.Close();
+            //}
         }
     }
 }

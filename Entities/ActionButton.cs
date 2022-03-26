@@ -9,34 +9,32 @@ using March_Game_Jam.Helpers;
 
 namespace March_Game_Jam.Entities
 {
-    public class Item_Button :Entity
+    public class ActionButton : Entity
     {
-        public Item_Button() : base(1)
+        string actionName = "";
+        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name) : base(10)
         {
-            x= 10;
-            y= 10;
-            hitBox.X=x;
-            hitBox.Y=y;
-            imageBox.X = 0;
-            imageBox.Y = 0;
-            imageBox.Width = 159;
-            imageBox.Height = 46;
-            width = imageBox.Width;
-            height = imageBox.Height;
+            actionName = name;
+            x = xCenter - xWidth / 2;
+            y = yCenter - yWidth / 2;
+            hitBox.X = x;
+            hitBox.Y = y;
+            width = xWidth;
+            height = yWidth;
             hitBox.Width = width;
             hitBox.Height = height;
-            
         }
 
         public override void Draw(SpriteBatch sb)
         {
-            //sb.Draw(Game1.item_menu_button_img,hitBox,imageBox,Color.White);
+            sb.Draw(Game1.pallete,hitBox,Game1.blue,Color.White);
+            //TODO: Write ability name
         }
 
         public override void Update()
         {
             if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked){
-                //Game1.the_item_menu.Open();
+                //Do ability
             }
         }
     }

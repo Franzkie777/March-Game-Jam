@@ -28,7 +28,7 @@ namespace March_Game_Jam.Entities
         //to other entities
         public override void Draw(SpriteBatch sb)
         {
-            //sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
+            sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
         }
     }
 }

@@ -27,7 +27,7 @@ namespace March_Game_Jam.Entities
         public Item(string item_name) : base()
         {
             //load item info from item_list.json
-            item_dict = Game1.item_list_json["items"][item_name];
+            //item_dict = Game1.item_list_json["items"][item_name];
             item_index = item_dict["index"];
             this.item_name = item_dict["item_name"];
             item_graphic_source = item_dict["item_graphic_source"];

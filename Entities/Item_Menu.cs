@@ -36,7 +36,7 @@ namespace March_Game_Jam.Entities
         {
             if (state=="OPEN")
             {
-                sb.Draw(Game1.item_menu_img,hitBox,imageBox,Color.White);
+                //sb.Draw(Game1.item_menu_img,hitBox,imageBox,Color.White);
             }
             else{}
         }

@@ -4,16 +4,21 @@ using Microsoft.Xna.Framework.Input;
 using March_Game_Jam.Buttons;
 using System.IO;
 using System.Collections.Generic;
+using System.Diagnostics;
 using Newtonsoft.Json;
+using March_Game_Jam.GameStates;
+using March_Game_Jam.Entities;
 
 namespace March_Game_Jam
 {
     public class Game1 : Game
-    {   
+    {
+
         //Mouse Stuff
         private static bool mouseWasUp = false;
         public static bool mouseClicked = false;
         public static bool mouseDown = false;
+        public static GameState currentGameState;
 
         //Graphics
         private GraphicsDeviceManager _graphics;
@@ -35,7 +40,12 @@ namespace March_Game_Jam
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
         public static SpriteFont font;
         public static Texture2D pallete;
+<<<<<<< HEAD
         public Texture2D textbox_img;
+=======
+        public static Texture2D textbox_img;
+        //private static Player1 testPlayer = new Player1(100, 100);
+>>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
 
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
@@ -47,6 +57,7 @@ namespace March_Game_Jam
             magenta = new Rectangle(7, 0, 1, 1),
             black = new Rectangle(8, 0, 1, 1),
             white = new Rectangle(9, 0, 1, 1);
+<<<<<<< HEAD
         private Button inventory = new Button("Inventory", null);
         private Button engine = new Button("Engine", null);
         private Button Scanner = new Button("Scanner", null);
@@ -77,6 +88,9 @@ namespace March_Game_Jam
         public static Texture2D item_menu_exit_button_img;
 
         public static Dictionary<string,Texture2D> item_image_dictionary = new Dictionary<string, Texture2D>();
+=======
+
+>>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -93,7 +107,17 @@ namespace March_Game_Jam
             base.Initialize();
         }
 
+<<<<<<< HEAD
         public Texture2D load_img(string filename){
+=======
+        public Texture2D AddContent(string filename)
+        {
+            Debug.WriteLine("test");
+            Texture2D content;
+            content = Texture2D.FromFile(GraphicsDevice,filename);
+            return content;
+        }
+>>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
 
             return Texture2D.FromFile(GraphicsDevice,filename);
         }
@@ -101,6 +125,7 @@ namespace March_Game_Jam
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //graphics
+<<<<<<< HEAD
             font = Content.Load<SpriteFont>("Terminal");
             background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
             item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
@@ -121,7 +146,18 @@ namespace March_Game_Jam
                 }
             }
 
+=======
+            //font = Content.Load<SpriteFont>("Terminal");
+            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
+            Dad.dadPic = Texture2D.FromFile(GraphicsDevice, "Content/Dad1.png");
+            Dad.dadPicBox = new Rectangle(0, 0, Dad.dadPic.Width, Dad.dadPic.Height);
+            Child.kidPic = Texture2D.FromFile(GraphicsDevice, "Content/Baby2.png");
+            Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
+            
+>>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
             // TODO: use this.Content to load your game content here
+            currentGameState = new FightScene();
+            
         }
 
         protected override async void Update(GameTime gameTime)
@@ -168,6 +204,8 @@ namespace March_Game_Jam
         {
             GraphicsDevice.Clear(Color.Black);
             _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.NonPremultiplied, SamplerState.PointClamp);
+
+            currentGameState.Draw(_spriteBatch);
 
             foreach(Entities.Entity e in Entities)
                 e.Draw(_spriteBatch);
