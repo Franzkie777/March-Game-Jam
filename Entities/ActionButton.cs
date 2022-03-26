@@ -13,8 +13,10 @@ namespace March_Game_Jam.Entities
     {
         string actionName = "";
         int nameWidth, nameHeight;
-        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name) : base(10)
+        Action action;
+        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name, Action act) : base(10)
         {
+            action = act;
             actionName = name;
             x = xCenter - xWidth / 2;
             y = yCenter - yWidth / 2;
@@ -38,7 +40,7 @@ namespace March_Game_Jam.Entities
         public override void Update()
         {
             if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked){
-                //Do ability
+                action();
             }
         }
 
