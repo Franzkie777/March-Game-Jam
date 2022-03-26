@@ -45,7 +45,6 @@ namespace March_Game_Jam.Entities
         {
             state = "OPEN";
             Item test_item = new Item("test_item");
-            Game1.storage.add_to_storage(test_item);
         }
 
         public void Close()

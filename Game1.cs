@@ -53,6 +53,7 @@ namespace March_Game_Jam
             magenta = new Rectangle(7, 0, 1, 1),
             black = new Rectangle(8, 0, 1, 1),
             white = new Rectangle(9, 0, 1, 1);
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -69,29 +70,45 @@ namespace March_Game_Jam
             base.Initialize();
         }
 
+        public Texture2D AddContent(string filename)
+        {
+            Debug.WriteLine("test");
             Texture2D content;
             content = Texture2D.FromFile(GraphicsDevice,filename);
             return content;
         }
 
-            return Texture2D.FromFile(GraphicsDevice,filename);
-        }
+        protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //graphics
-<<<<<<< HEAD
-            font = Content.Load<SpriteFont>("Terminal");
-            background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
-            item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
+            //font = Content.Load<SpriteFont>("Terminal");
+            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
+            Dad.dadPic = Texture2D.FromFile(GraphicsDevice, "Content/Dad1.png");
+            Dad.dadPicBox = new Rectangle(0, 0, Dad.dadPic.Width, Dad.dadPic.Height);
+            Child.kidPic = Texture2D.FromFile(GraphicsDevice, "Content/Baby2.png");
+            Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
+            
+            // TODO: use this.Content to load your game content here
+            currentGameState = new FightScene();
+            
+        }
+
+        protected override void Update(GameTime gameTime)
+        {
+            UpdateScreenSize();
+            MouseHoveredEntities.Clear();
+            mouseClicked = MouseClickCheck();
+            mouseDown = MouseDownCheck();
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
+                Exit();
+
+            foreach(Entities.Entity e in Entities) {
+                if(MouseOver(e.hitBox)) {
+                    MouseHoveredEntities.Add(e);
+                }
             }
 
-<<<<<<< HEAD
-
-
-
-            for (int i=0; i<=Entities.Count;i++)
-                
-=======
             foreach(Entities.Entity e in Entities)
                 e.Update();
             
@@ -104,7 +121,6 @@ namespace March_Game_Jam
             remove_Entities.Clear();
             add_Entities.Clear();
 
->>>>>>> 9dd83af68cd07fb8f283395f67e9d0e785b57f7a
             base.Update(gameTime);
         }
 
@@ -173,8 +189,5 @@ namespace March_Game_Jam
             return clicked;
         }
 
-        public static void Start_Storage() {
-            //storage.add_to_storage(test_item);
-        }
     }
 }
