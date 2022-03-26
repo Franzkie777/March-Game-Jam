@@ -1,6 +1,6 @@
 {
-    "problems":{
-        "test_problem":{
+    "scenarios":{
+        "test_scenario":{
             "index":0,
             "problem_name": "test_problem",
             "problem_display_name": "Test Problem",

@@ -11,8 +11,13 @@ namespace March_Game_Jam.GameStates
 
         public FightScene() : base()
         {
+            //Instantiate and draw Dad and Child Objects.
             dad = new Dad(100, 150);
             child = new Child(300, 150);
+            //
+
+
+
             for(int i = 0; i < 4; i++) {
                 actionList[i] = new Entities.ActionButton(100, i * 40 + 300, 100, 30, "Action Number " + i.ToString());
             }
