@@ -40,12 +40,8 @@ namespace March_Game_Jam
         public static List<Entities.Entity> MouseHoveredEntities = new List<Entities.Entity>();
         public static SpriteFont font;
         public static Texture2D pallete;
-<<<<<<< HEAD
-        public Texture2D textbox_img;
-=======
         public static Texture2D textbox_img;
         //private static Player1 testPlayer = new Player1(100, 100);
->>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
 
         public static Rectangle red = new Rectangle(0, 0, 1, 1),
             blue = new Rectangle(1, 0, 1, 1),
@@ -57,40 +53,6 @@ namespace March_Game_Jam
             magenta = new Rectangle(7, 0, 1, 1),
             black = new Rectangle(8, 0, 1, 1),
             white = new Rectangle(9, 0, 1, 1);
-<<<<<<< HEAD
-        private Button inventory = new Button("Inventory", null);
-        private Button engine = new Button("Engine", null);
-        private Button Scanner = new Button("Scanner", null);
-
-        private Entities.TextBox testTextBox = new Entities.TextBox(450,250,"Content/animation_jsons/TextBox.json");
-        private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
-        private Entities.Player1 testPlayer2 = new Entities.Player1(450, 150);
-        private Entities.Player1 testPlayer3 = new Entities.Player1(450, 200);
-        //private Entities.Player1 testPlayer = new Entities.Player1(350, 150);
-        private static Entities.Background background = new Entities.Background();
-        private static Entities.Item_Button the_item_button = new Entities.Item_Button();
-        public static Entities.Item_Menu the_item_menu = new Entities.Item_Menu();
-        public static Entities.Item_Menu_Exit_Button the_item_menu_exit_button = new Entities.Item_Menu_Exit_Button(the_item_menu);
-        public static Entities.Item test_item;
-
-
-        public static Entities.Storage storage = new March_Game_Jam.Entities.Storage();
-
-
-        public static Dictionary<dynamic,dynamic> item_list_json;
-        public static Dictionary<dynamic,dynamic> problem_list_json;
-        public static Dictionary<dynamic,dynamic> ship_effects_list_json;
-        public static Dictionary<dynamic,dynamic> recipe_list_json;
-        //Textures
-        public static Texture2D background_img;
-        public static Texture2D item_menu_button_img;
-        public static Texture2D item_menu_img;
-        public static Texture2D item_menu_exit_button_img;
-
-        public static Dictionary<string,Texture2D> item_image_dictionary = new Dictionary<string, Texture2D>();
-=======
-
->>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -107,21 +69,13 @@ namespace March_Game_Jam
             base.Initialize();
         }
 
-<<<<<<< HEAD
-        public Texture2D load_img(string filename){
-=======
-        public Texture2D AddContent(string filename)
-        {
-            Debug.WriteLine("test");
             Texture2D content;
             content = Texture2D.FromFile(GraphicsDevice,filename);
             return content;
         }
->>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
 
             return Texture2D.FromFile(GraphicsDevice,filename);
         }
-        protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             //graphics
@@ -129,51 +83,6 @@ namespace March_Game_Jam
             font = Content.Load<SpriteFont>("Terminal");
             background_img = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Starry Background.png");
             item_menu_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Items Button.png");
-            item_menu_img = Texture2D.FromFile(GraphicsDevice,"Content/menus/simple storage menu with boxes.png");
-            item_menu_exit_button_img = Texture2D.FromFile(GraphicsDevice,"Content/buttons/Exit Button.png");
-            //jsons
-            item_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/item_list.json"));
-            problem_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/problem_list.json"));
-            ship_effects_list_json = JsonConvert.DeserializeObject<Dictionary<dynamic,dynamic>>(File.ReadAllText("Content/lists/ship_effects_list.json"));
-
-            foreach (dynamic item_img in item_list_json["items"])
-            {
-                string file_name = "Content/items/"+item_img.Name+".png";
-                if (File.Exists(file_name))
-                {
-                    Texture2D temp_img = load_img(file_name);
-                    item_image_dictionary.Add(item_img.Name,temp_img);
-                }
-            }
-
-=======
-            //font = Content.Load<SpriteFont>("Terminal");
-            pallete = Texture2D.FromFile(GraphicsDevice, "Content/pallete.png");
-            Dad.dadPic = Texture2D.FromFile(GraphicsDevice, "Content/Dad1.png");
-            Dad.dadPicBox = new Rectangle(0, 0, Dad.dadPic.Width, Dad.dadPic.Height);
-            Child.kidPic = Texture2D.FromFile(GraphicsDevice, "Content/Baby2.png");
-            Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
-            
->>>>>>> 66aac35f6a18e0496c1dcbb1b43643c905240cfd
-            // TODO: use this.Content to load your game content here
-            currentGameState = new FightScene();
-            
-        }
-
-        protected override async void Update(GameTime gameTime)
-        {
-
-            UpdateScreenSize();
-            MouseHoveredEntities.Clear();
-            mouseClicked = MouseClickCheck();
-            mouseDown = MouseDownCheck();
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
-                Exit();
-
-            foreach(Entities.Entity e in Entities) {
-                if(MouseOver(e.hitBox)) {
-                    MouseHoveredEntities.Add(e);
-                }
             }
 
 <<<<<<< HEAD
@@ -181,7 +90,6 @@ namespace March_Game_Jam
 
 
             for (int i=0; i<=Entities.Count;i++)
-                Entities[i].Update();
                 
 =======
             foreach(Entities.Entity e in Entities)
