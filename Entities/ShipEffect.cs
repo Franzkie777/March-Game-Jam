@@ -23,7 +23,7 @@ namespace March_Game_Jam.Entities
         public ShipEffect(string effect_name) : base()
         {
             //load ship effect from ship_effects_list.json.
-            ship_effect_dict = Game1.ship_effects_list_json["effects"][effect_name];
+            //ship_effect_dict = Game1.ship_effects_list_json["effects"][effect_name];
             ship_effect_index = ship_effect_dict["index"];
             ship_effect_name = ship_effect_dict["effect_name"];
             ship_effect_display_name = ship_effect_dict["effect_display_name"];

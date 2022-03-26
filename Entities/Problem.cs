@@ -24,7 +24,7 @@ namespace March_Game_Jam.Entities
         public Problem(string problem_name) : base()
         {
             //load problem from problem_list.json
-            problem_dict = Game1.problem_list_json["problems"][problem_name];
+            //problem_dict = Game1.problem_list_json["problems"][problem_name];
             problem_index = problem_dict["index"];
             this.problem_name = problem_dict["problem_name"];
             problem_display_name = problem_dict["problem_display_name"];
