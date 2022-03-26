@@ -31,8 +31,7 @@ namespace March_Game_Jam.Entities
 
         public override async void Draw(SpriteBatch sb)
         {
-            
-            sb.Draw(Game1.pallete,hitBox,Game1.blue,Color.White);
+            sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
             sb.DrawString(Game1.font, actionName, new Vector2(x + width / 2 - nameWidth / 2, y + height / 2 - nameHeight / 2), Color.White);
         }
 
