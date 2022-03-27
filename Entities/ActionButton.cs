@@ -13,8 +13,9 @@ namespace March_Game_Jam.Entities
     {
         string actionName = "";
         int nameWidth, nameHeight;
-        Action action;
-        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name, Action act) : base(10)
+        System.Action action;
+        bool clicked = false;
+        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name, System.Action act) : base(10)
         {
             action = act;
             actionName = name;
@@ -33,14 +34,25 @@ namespace March_Game_Jam.Entities
 
         public override async void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.pallete, hitBox, Game1.blue, Color.White);
-            sb.DrawString(Game1.font, actionName, new Vector2(x + width / 2 - nameWidth / 2, y + height / 2 - nameHeight / 2), Color.White);
+            if(!clicked) {
+                sb.Draw(Game1.pallete, hitBox, Game1.black, Color.White);
+                sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.White);
+            }
+            else {
+                sb.Draw(Game1.pallete, hitBox, Game1.white, Color.White);
+                sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.Black);
+            }
+            
         }
 
         public override void Update()
         {
             if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked){
+                clicked = true;
                 action();
+            }
+            if(!Game1.MouseHoveredEntities.Contains(this) || !Game1.mouseDown) {
+                clicked = false;
             }
         }
 

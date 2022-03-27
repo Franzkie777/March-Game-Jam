@@ -90,6 +90,8 @@ namespace March_Game_Jam
             Dad.dadPicBox = new Rectangle(0, 0, Dad.dadPic.Width, Dad.dadPic.Height);
             Child.kidPic = Texture2D.FromFile(GraphicsDevice, "Content/Baby2.png");
             Child.kidPicBox = new Rectangle(0, 0, Child.kidPic.Width, Child.kidPic.Height);
+            FightScene.background = Texture2D.FromFile(GraphicsDevice, "Content/backgrounds/Background.png");
+            FightScene.bottomMenu = Texture2D.FromFile(GraphicsDevice, "Content/menus/Bottom Menu.png");
             font = Content.Load<SpriteFont>("bauhs");
             
             // load json lists
