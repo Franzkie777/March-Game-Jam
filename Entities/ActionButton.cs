@@ -12,8 +12,12 @@ namespace March_Game_Jam.Entities
     public class ActionButton : Entity
     {
         string actionName = "";
-        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name) : base(10)
+        int nameWidth, nameHeight;
+        System.Action action;
+        bool clicked = false;
+        public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name, System.Action act) : base(10)
         {
+            action = act;
             actionName = name;
             x = xCenter - xWidth / 2;
             y = yCenter - yWidth / 2;
@@ -23,19 +27,34 @@ namespace March_Game_Jam.Entities
             height = yWidth;
             hitBox.Width = width;
             hitBox.Height = height;
+            Vector2 measurement = Game1.font.MeasureString(actionName);
+            nameWidth = (int)measurement.X;
+            nameHeight = (int)measurement.Y;
         }
 
-        public override void Draw(SpriteBatch sb)
+        public override async void Draw(SpriteBatch sb)
         {
-            sb.Draw(Game1.pallete,hitBox,Game1.blue,Color.White);
-            //TODO: Write ability name
+            if(!clicked) {
+                sb.Draw(Game1.pallete, hitBox, Game1.black, Color.White);
+                sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.White);
+            }
+            else {
+                sb.Draw(Game1.pallete, hitBox, Game1.white, Color.White);
+                sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.Black);
+            }
+            
         }
 
         public override void Update()
         {
             if (Game1.MouseHoveredEntities.Contains(this) && Game1.mouseClicked){
-                //Do ability
+                clicked = true;
+                action();
+            }
+            if(!Game1.MouseHoveredEntities.Contains(this) || !Game1.mouseDown) {
+                clicked = false;
             }
         }
+
     }
 }

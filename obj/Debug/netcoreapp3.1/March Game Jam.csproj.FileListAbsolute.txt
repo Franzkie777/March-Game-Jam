@@ -72,3 +72,4 @@ C:\Users\molendadewey13\Documents\March Game Jam Proper\March-Game-Jam\obj\Debug
 C:\Users\molendadewey13\Documents\March Game Jam Proper\March-Game-Jam\obj\Debug\netcoreapp3.1\March Game Jam.genruntimeconfig.cache
 C:\Users\molendadewey13\Documents\March Game Jam Proper\March-Game-Jam\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\jesse\Documents\GameJam22\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\jesse\Documents\GameJam22\bin\Debug\netcoreapp3.1\Content\bauhs.xnb

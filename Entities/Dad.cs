@@ -7,7 +7,12 @@ namespace March_Game_Jam.Entities
     {
         public static Texture2D dadPic;
         public static Rectangle dadPicBox;
-        public static int lawfulness = 0, goodness = 0, wisdom = 0, intelligence = 0, charisma = 0;
+        public static int lawfulness = 0,
+        goodness = 0,
+        wisdom = 0,
+        intelligence = 0,
+        charisma = 0,
+        money = 100;
         public Dad(int startX, int startY) : base(5)
         {
             x = startX;
