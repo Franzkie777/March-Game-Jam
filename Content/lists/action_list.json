@@ -1,37 +1,42 @@
 {
     "actions":{
-        "action_item":{
-            "index":0,
-            "item_name":"test_item",
-            "item_graphic_source": "test_item.png",
-            "item_display_name": "Test Item",
-            "description": "A description of the test item.",
-            "attributes": ["ORGANIC","NUCLEAR","FIRE_RETARDENT"],
-            "starting_stats":{
-                "durability":1,
-                "energy":10,
-                "conductance":-3,
-                "tastiness":1,
-                "poisonous": false,
-                "secretiveness":1000,
-                "size":10
-            }
-        },
-        "action_item_2":{
-            "index":1,
-            "item_name":"test_item_2",
-            "item_graphic_source": "test_item_2.png",
-            "item_display_name": "Test Item 2",
-            "description": "A description of the test item 2.",
-            "attributes": ["ORGANIC","NUCLEAR","FIRE_RETARDENT","LIQUID","SOLID","GASEOUS","PLASMA"],
-            "starting_stats":{
-                "durability":21,
-                "energy":210,
-                "conductance":-2,
-                "tastiness":2,
-                "poisonous": true,
-                "secretiveness":2000,
-                "size":10
+        "test_action_item":{
+            "action_name":"test_action_name",
+            "add_flags": ["A_FLAG","ANOTHER_FLAG"],
+            "remove_flags": ["B_FLAG","BNOTHER_FLAG"],
+            "availability":{
+                "father_stat_threshold":{
+                    "wisdom":{
+                        "lower":1,
+                        "upper":10
+                    }
+                },
+                "child_stat_threshold":{
+                    "wisdom":{
+                        "lower":5,
+                        "upper":10
+                    }
+                },
+                "round_threshold":{
+                    "lower":1,
+                    "upper":3
+                },
+                "age_threshold":{
+                    "lower":1,
+                    "upper":4
+                },
+                "dad_flag_pass_check": [
+                    "CARPENTER"
+                ],
+                "dad_flag_block_check":[
+                    "WEALTHY"
+                ],
+                "child_flag_pass_check": [
+                    "CARPENTER"
+                ],
+                "child_flag_block_check":[
+                    "WEALTHY"
+                ]
             }
         }
     }
