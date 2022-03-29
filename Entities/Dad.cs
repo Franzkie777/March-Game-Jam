@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Collections.Generic;
 
 namespace March_Game_Jam.Entities
 {
@@ -13,6 +14,7 @@ namespace March_Game_Jam.Entities
         intelligence = 0,
         charisma = 0,
         money = 100;
+        public List<string> flags;
         public Dad(int startX, int startY) : base(5)
         {
             x = startX;
