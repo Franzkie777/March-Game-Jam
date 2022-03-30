@@ -1,25 +1,35 @@
 {
-    "scenarios":{
-        "test_scenario":{
-            "index":0,
-            "problem_name": "test_problem",
-            "problem_display_name": "Test Problem",
-            "description": "A description of the test problem. This test problem looks a lot like a fire.",
-            "solutions_sets":[
-                {
-                    "solution_attributes":["FIRE_RETARDENT","LIQUID"],
-                    "solution_description": "You quenched the fire. We are safe now."
+    "problems":{
+        "test_problem":{
+            "problem_name":"test_problem_name",
+            "availability":{
+                "father_stat_threshold":{
+                    "wisdom":{
+                        "lower":1,
+                        "upper":10
+                    }
                 },
-                {
-                    "solution_attributes":["FIRE_RETARDENT","SOLID"],
-                    "solution_description": "You smothered the fire. We are safe now."
-                }
-            ],
-            "ship_effects":[
-                "FIRE_DAMAGE",
-                "SMOKE_INHALATION",
-                "BURNS"
-            ]
+                "son_stat_threshold":{
+                    "wisdom":{
+                        "lower":5,
+                        "upper":10
+                    }
+                },
+                "round_threshold":{
+                    "lower":1,
+                    "upper":3
+                },
+                "age_threshold":{
+                    "lower":1,
+                    "upper":4
+                },
+                "flag_pass_check": [
+                    "CARPENTER"
+                ],
+                "flag_block_check":[
+                    "WEALTHY"
+                ]
+            }
         }
     }
 }
