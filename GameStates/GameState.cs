@@ -4,7 +4,6 @@ namespace March_Game_Jam.GameStates
 {
     public class GameState
     {
-
         public GameState() {
             
         }

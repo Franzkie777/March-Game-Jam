@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/jesse/Documents/GameJam22/Content/bauhs.spritefont</File>
+    <File>c:/Users/jesse/Documents/GameJam22/Content/bauhs.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

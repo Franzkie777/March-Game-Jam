@@ -14,6 +14,12 @@ namespace March_Game_Jam.GameStates
         bottomMenu;
         public static Rectangle backgroundRect,
         bottomMenuRect;
+        public enum state {
+            playerTurnInput,
+            playerTurnResult,
+            childTurnResult
+        }
+        public state fightState = state.childTurnResult;
         public FightScene() : base()
         {
             //Instantiate and draw Dad and Child Objects.
@@ -42,13 +48,13 @@ namespace March_Game_Jam.GameStates
             double xScaling = (double)bottomMenuRect.Width / bottomMenu.Bounds.Width;
             double yScaling = (double)bottomMenuRect.Height / bottomMenu.Bounds.Height;
             Console.WriteLine(xScaling);
-            actionList[0].hitBox.X = (int)(105 * xScaling);
-            actionList[0].hitBox.Y = Game1.screen_height - (int)(306 * yScaling);
+            actionList[0].hitBox.X = (int)(106 * xScaling);
+            actionList[0].hitBox.Y = Game1.screen_height - (int)(308 * yScaling);
             actionList[0].hitBox.Width = (int)(402 * xScaling);
-            actionList[0].hitBox.Height = (int)(128 * yScaling);
+            actionList[0].hitBox.Height = (int)(129 * yScaling);
             actionList[1].hitBox.X = actionList[0].hitBox.X;
-            actionList[1].hitBox.Y = Game1.screen_height - (int)(152 * yScaling);
-            actionList[2].hitBox.X = (int)(535 * xScaling);
+            actionList[1].hitBox.Y = Game1.screen_height - (int)(153 * yScaling);
+            actionList[2].hitBox.X = (int)(536 * xScaling);
             actionList[2].hitBox.Y = actionList[0].hitBox.Y;
             actionList[3].hitBox.X = actionList[2].hitBox.X;
             actionList[3].hitBox.Y = actionList[1].hitBox.Y;
