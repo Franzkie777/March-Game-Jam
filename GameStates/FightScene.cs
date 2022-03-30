@@ -16,14 +16,12 @@ namespace March_Game_Jam.GameStates
         bottomMenu;
         public static Rectangle backgroundRect,
         bottomMenuRect;
-<<<<<<< HEAD
         public enum state {
             playerTurnInput,
             playerTurnResult,
             childTurnResult
         }
         public state fightState = state.childTurnResult;
-=======
         public static List<March_Game_Jam.Helpers.Action> current_action_list;
         public static List<March_Game_Jam.Helpers.Problem> possible_problem_list;
         public static March_Game_Jam.Helpers.Problem current_problem;
@@ -34,7 +32,6 @@ namespace March_Game_Jam.GameStates
         //current round during a given life stage.
         public int child_life_stage;
         //child's life stage (baby, child, teen, college). An int from 0 to 3. May not be necessary here, may only be necessary in child, but I added it here to sync up with the round tracker.
->>>>>>> 371ef23b99d049f21c5024701fa4e03844525d63
         public FightScene() : base()
         {
             //Instantiate and draw Dad and Child Objects.
