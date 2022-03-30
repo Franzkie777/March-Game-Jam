@@ -9,7 +9,7 @@ namespace March_Game_Jam.Entities
         public static Texture2D kidPic;
         public static Rectangle kidPicBox;
         public int age;
-         public List<string> flags;
+        public List<string> flags;
 
         
         public Child(int startX, int startY) : base(5)
