@@ -42,6 +42,9 @@ namespace March_Game_Jam.Entities
 
         public override void Draw(SpriteBatch sb)
         {
+            x = Game1.screen_width / 3;
+            y = Game1.screen_height / 3;
+            updateHitBox();
             sb.Draw(dad_eye_img, hitBox, dadPicBox, Color.White);
             sb.Draw(dad_hair_img, hitBox, dadPicBox, Color.White);
             sb.Draw(dad_pants_img, hitBox, dadPicBox, Color.White);
