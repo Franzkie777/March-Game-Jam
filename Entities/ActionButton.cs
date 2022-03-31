@@ -15,6 +15,8 @@ namespace March_Game_Jam.Entities
         int nameWidth, nameHeight;
         System.Action action;
         bool clicked = false;
+        public Texture2D buttonUp, buttonDown;
+        public Rectangle buttonUpRect, buttonDownRect;
         public ActionButton(int xCenter, int yCenter, int xWidth, int yWidth, string name, System.Action act) : base(10)
         {
             action = act;
@@ -35,11 +37,13 @@ namespace March_Game_Jam.Entities
         public override async void Draw(SpriteBatch sb)
         {
             if(!clicked) {
-                sb.Draw(Game1.pallete, hitBox, Game1.black, Color.White);
+                if(buttonUp != null && buttonUpRect != null)
+                    sb.Draw(buttonUp, hitBox, buttonUpRect, Color.White);
                 sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.White);
             }
             else {
-                sb.Draw(Game1.pallete, hitBox, Game1.white, Color.White);
+                if(buttonDown != null && buttonDownRect != null)
+                    sb.Draw(buttonDown, hitBox, buttonDownRect, Color.White);
                 sb.DrawString(Game1.font, actionName, new Vector2(hitBox.X + hitBox.Width / 2 - nameWidth / 2, hitBox.Y + hitBox.Height / 2 - nameHeight / 2), Color.Black);
             }
             
