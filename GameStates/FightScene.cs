@@ -35,8 +35,8 @@ namespace March_Game_Jam.GameStates
         public FightScene() : base()
         {
             //Instantiate and draw Dad and Child Objects.
-            dad = new Dad(Game1.screen_width / 3, Game1.screen_height / 3);
-            child = new Child(2 * Game1.screen_width / 3, Game1.screen_height / 3);
+            dad = new Dad(00, 250);
+            child = new Child(700, 250);
             void Test() {
                 Console.WriteLine("test");
             };
