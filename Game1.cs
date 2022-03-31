@@ -94,7 +94,8 @@ namespace March_Game_Jam
             FightScene.bottomMenu = Texture2D.FromFile(GraphicsDevice, "Content/menus/Bottom Menu.png");
             font = Content.Load<SpriteFont>("bauhs");
             //Load Character Content
-            Dictionary<dynamic,dynamic> char_content_dict =new Dictionary<dynamic, dynamic>();
+            Dad.char_content_dict = new Dictionary<dynamic,dynamic>();
+            Child.char_content_dict = new Dictionary<dynamic, dynamic>();
             DirectoryInfo baby_dir = new DirectoryInfo("Content/Characters/Baby");
             DirectoryInfo child_dir = new DirectoryInfo("Content/Characters/Child");
             DirectoryInfo teen_dir = new DirectoryInfo("Content/Characters/Teen");
@@ -104,27 +105,27 @@ namespace March_Game_Jam
             foreach( var file in baby_dir.GetFiles("*.png",SearchOption.AllDirectories))
             {
                 string name = file.FullName.Split("Characters\\")[1];
-                char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
+                Child.char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
             }
             foreach( var file in child_dir.GetFiles("*.png",SearchOption.AllDirectories))
             {
                 string name = file.FullName.Split("Characters\\")[1];
-                char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
+                Child.char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
             }
             foreach( var file in teen_dir.GetFiles("*.png",SearchOption.AllDirectories))
             {
                 string name = file.FullName.Split("Characters\\")[1];
-                char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
+                Child.char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
             }
             foreach( var file in college_dir.GetFiles("*.png",SearchOption.AllDirectories))
             {
                 string name = file.FullName.Split("Characters\\")[1];
-                char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
+                Child.char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
             }
             foreach( var file in dad_dir.GetFiles("*.png",SearchOption.AllDirectories))
             {
                 string name = file.FullName.Split("Characters\\")[1];
-                char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
+                Dad.char_content_dict.Add(name,Texture2D.FromFile(GraphicsDevice,file.FullName));
             }
             // load json lists
             actions_dict = JsonConvert.DeserializeObject(File.ReadAllText("Content/lists/action_list.json"));
