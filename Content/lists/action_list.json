@@ -2,6 +2,8 @@
     "actions":{
         "test_action_item":{
             "action_name":"test_action_name",
+            "child_stat_change":{},
+            "dad_stat_change":{},
             "add_flags": ["A_FLAG","ANOTHER_FLAG"],
             "remove_flags": ["B_FLAG","BNOTHER_FLAG"],
             "availability":{
