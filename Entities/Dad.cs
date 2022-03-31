@@ -44,6 +44,8 @@ namespace March_Game_Jam.Entities
         {
             x = Game1.screen_width / 3;
             y = Game1.screen_height / 3;
+            width = Game1.screen_width / 5;
+            height = width * dadPicBox.Height / dadPicBox.Width;
             updateHitBox();
             sb.Draw(dad_eye_img, hitBox, dadPicBox, Color.White);
             sb.Draw(dad_hair_img, hitBox, dadPicBox, Color.White);

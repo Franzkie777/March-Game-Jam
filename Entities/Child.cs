@@ -28,9 +28,6 @@ namespace March_Game_Jam.Entities
             shirt_img = char_content_dict["Teen\\Shirt\\Red.png"];
             shoes_img = char_content_dict["Teen\\Shoes\\Grey.png"];
             skin_img = char_content_dict["Teen\\Skin\\2.png"];
-
-            
-            
             
             x = startX;
             y = startY;
