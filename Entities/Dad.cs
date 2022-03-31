@@ -23,7 +23,7 @@ namespace March_Game_Jam.Entities
         public static Texture2D dad_shoes_img;
         public static Texture2D dad_skin_img;
 
-        public Dad(int startX, int startY, string dad_eye, ) : base(5)
+        public Dad(int startX, int startY) : base(5)
         {
             dad_eye_img = char_content_dict["Dad\\Eye\\Green.png"];
             dad_hair_img = char_content_dict["Dad\\Hair\\5.png"];
@@ -35,8 +35,6 @@ namespace March_Game_Jam.Entities
             
             x = startX;
             y = startY;
-            width = 200;
-            height = 200;
             updateHitBox();
         }
 
@@ -44,6 +42,8 @@ namespace March_Game_Jam.Entities
         {
             x = Game1.screen_width / 3;
             y = Game1.screen_height / 3;
+            width = Game1.screen_width/8;
+            height = Game1.screen_width/6;
             updateHitBox();
             sb.Draw(dad_eye_img, hitBox, dadPicBox, Color.White);
             sb.Draw(dad_hair_img, hitBox, dadPicBox, Color.White);
